@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water_2
+  m_Shader: {fileID: -6465566751694194690, guid: 181f988c9a0859b49b78fd7430ea0cbc, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_3941ef2834234297873e007237bbe6cc:
+        m_Texture: {fileID: 2800000, guid: 13b7f2fc1a9263d4b8b566df0ee0f432, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_4b4c6341e0134afabd9d109d2ce42e34:
+        m_Texture: {fileID: 2800000, guid: 13b7f2fc1a9263d4b8b566df0ee0f432, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_684a385dfee143148d780f212126b7b3:
+        m_Texture: {fileID: 2800000, guid: 13b7f2fc1a9263d4b8b566df0ee0f432, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_13d93fc9ede64220bb12be8fde0c3cf3: 3.7
+    - Vector1_27c68c5d036844aba0a5e5e26528254e: 1
+    - Vector1_2fbd1309d8d3491598c8955c4f94322d: 1
+    - Vector1_31928a7f73514f2ab7401bfa4b94586f: 0.1
+    - Vector1_814905f61637415fb60c491109f0a08f: 0.74
+    m_Colors:
+    - Color_732f9b5cfc594fa98991212409e911d3: {r: 0.8066038, g: 0.99806607, b: 1, a: 0.8352941}
+    - Color_d18aa11e40d54fa3a35bf787479493b9: {r: 0.42924526, g: 0.80717754, b: 1, a: 1}
+    - Vector2_53144f52bfd444fcb78bc90198f78e53: {r: 2.68, g: 2.1, b: 0, a: 0}
+  m_BuildTextureStacks: []
