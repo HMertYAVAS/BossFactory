@@ -2571,7 +2571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5323732f7f4c0024384504749fba69a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 4
+  playerSpeed: 6
   dynamicJoystick: {fileID: 1473259198}
 --- !u!114 &1914464613
 MonoBehaviour:
