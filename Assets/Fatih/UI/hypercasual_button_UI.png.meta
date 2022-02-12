@@ -1,0 +1,2784 @@
+fileFormatVersion: 2
+guid: 95d4b0bef59a03043bf4dba6e3697bd6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4879234950453637662
+    second: hypercasual_button_UI_0
+  - first:
+      213: 4716165446661343231
+    second: hypercasual_button_UI_1
+  - first:
+      213: -2129650307474302648
+    second: hypercasual_button_UI_2
+  - first:
+      213: 3167371404365742273
+    second: hypercasual_button_UI_3
+  - first:
+      213: 3920642834274852154
+    second: hypercasual_button_UI_4
+  - first:
+      213: -6758317256501841507
+    second: hypercasual_button_UI_5
+  - first:
+      213: 4101581444292936558
+    second: hypercasual_button_UI_6
+  - first:
+      213: 4404426380498886932
+    second: hypercasual_button_UI_7
+  - first:
+      213: -138792712561923062
+    second: hypercasual_button_UI_8
+  - first:
+      213: -5703277132729363405
+    second: hypercasual_button_UI_9
+  - first:
+      213: -1352301484096399216
+    second: hypercasual_button_UI_10
+  - first:
+      213: -9188002943647736589
+    second: hypercasual_button_UI_11
+  - first:
+      213: -1847467025322573229
+    second: hypercasual_button_UI_12
+  - first:
+      213: 6301776926469311253
+    second: hypercasual_button_UI_13
+  - first:
+      213: 4293593993909468128
+    second: hypercasual_button_UI_14
+  - first:
+      213: 1433137074167368658
+    second: hypercasual_button_UI_15
+  - first:
+      213: -4889027521733992252
+    second: hypercasual_button_UI_16
+  - first:
+      213: 2984796379926492757
+    second: hypercasual_button_UI_17
+  - first:
+      213: 3405951880547815810
+    second: hypercasual_button_UI_18
+  - first:
+      213: 2423648385921192514
+    second: hypercasual_button_UI_19
+  - first:
+      213: 6535769439955312585
+    second: hypercasual_button_UI_20
+  - first:
+      213: 3154759877908502277
+    second: hypercasual_button_UI_21
+  - first:
+      213: -1504420291902172372
+    second: hypercasual_button_UI_22
+  - first:
+      213: -8967099893129919051
+    second: hypercasual_button_UI_23
+  - first:
+      213: 4234783532317912227
+    second: hypercasual_button_UI_24
+  - first:
+      213: 7323928767378738766
+    second: hypercasual_button_UI_25
+  - first:
+      213: 950293374354873403
+    second: hypercasual_button_UI_26
+  - first:
+      213: -2710753992897267681
+    second: hypercasual_button_UI_27
+  - first:
+      213: 6314927998791883049
+    second: hypercasual_button_UI_28
+  - first:
+      213: -5799123164191123153
+    second: hypercasual_button_UI_29
+  - first:
+      213: -4390122521368788495
+    second: hypercasual_button_UI_30
+  - first:
+      213: -4570093992019984785
+    second: hypercasual_button_UI_31
+  - first:
+      213: -9207669879573292331
+    second: hypercasual_button_UI_32
+  - first:
+      213: -5514609713205436269
+    second: hypercasual_button_UI_33
+  - first:
+      213: -4118050817647762878
+    second: hypercasual_button_UI_34
+  - first:
+      213: 2736151627662566821
+    second: hypercasual_button_UI_35
+  - first:
+      213: 7595580066403117946
+    second: hypercasual_button_UI_36
+  - first:
+      213: 1419109944378404712
+    second: hypercasual_button_UI_37
+  - first:
+      213: 9108493383604385394
+    second: hypercasual_button_UI_38
+  - first:
+      213: 4517002792773213547
+    second: hypercasual_button_UI_39
+  - first:
+      213: 8915183108149143122
+    second: hypercasual_button_UI_40
+  - first:
+      213: -6317858659472185148
+    second: hypercasual_button_UI_41
+  - first:
+      213: -2662574172374265018
+    second: hypercasual_button_UI_42
+  - first:
+      213: -2612764132171131326
+    second: hypercasual_button_UI_43
+  - first:
+      213: -2738661213293657070
+    second: hypercasual_button_UI_44
+  - first:
+      213: 3044233217324047560
+    second: hypercasual_button_UI_48
+  - first:
+      213: -6669983240310047242
+    second: hypercasual_button_UI_49
+  - first:
+      213: -7511265949770671141
+    second: hypercasual_button_UI_50
+  - first:
+      213: -833143267415712340
+    second: hypercasual_button_UI_53
+  - first:
+      213: 6250928275818878137
+    second: hypercasual_button_UI_55
+  - first:
+      213: 8714130296484356194
+    second: hypercasual_button_UI_56
+  - first:
+      213: 1941123617559258311
+    second: hypercasual_button_UI_57
+  - first:
+      213: 5977978258884117007
+    second: hypercasual_button_UI_59
+  - first:
+      213: 1469298374269413605
+    second: hypercasual_button_UI_60
+  - first:
+      213: 933227035707977
+    second: hypercasual_button_UI_61
+  - first:
+      213: 6361380039230354692
+    second: hypercasual_button_UI_62
+  - first:
+      213: 627546380923187682
+    second: hypercasual_button_UI_69
+  - first:
+      213: -2766460445138606861
+    second: hypercasual_button_UI_71
+  - first:
+      213: -4295708272011159622
+    second: hypercasual_button_UI_72
+  - first:
+      213: 2989478143425555566
+    second: hypercasual_button_UI_73
+  - first:
+      213: 4247464095496646650
+    second: hypercasual_button_UI_74
+  - first:
+      213: 7500610425731172316
+    second: hypercasual_button_UI_76
+  - first:
+      213: 2140158703841291503
+    second: hypercasual_button_UI_77
+  - first:
+      213: 9108859220497843526
+    second: hypercasual_button_UI_78
+  - first:
+      213: -8617124103329355038
+    second: hypercasual_button_UI_79
+  - first:
+      213: 3226019018616600019
+    second: hypercasual_button_UI_80
+  - first:
+      213: -3028896311283739504
+    second: hypercasual_button_UI_81
+  - first:
+      213: -2877927591019083412
+    second: hypercasual_button_UI_82
+  - first:
+      213: 5686273461455844579
+    second: hypercasual_button_UI_83
+  - first:
+      213: -2382475291199584249
+    second: hypercasual_button_UI_86
+  - first:
+      213: -4354036729991694624
+    second: hypercasual_button_UI_89
+  - first:
+      213: -3663769054039930238
+    second: hypercasual_button_UI_90
+  - first:
+      213: -3645650821614050842
+    second: hypercasual_button_UI_91
+  - first:
+      213: 4058687955194901579
+    second: hypercasual_button_UI_92
+  - first:
+      213: 3071048183644207863
+    second: hypercasual_button_UI_93
+  - first:
+      213: -4160186219208166472
+    second: hypercasual_button_UI_94
+  - first:
+      213: -1650110262857530979
+    second: hypercasual_button_UI_95
+  - first:
+      213: 6086394298320017774
+    second: hypercasual_button_UI_96
+  - first:
+      213: -5559892555078080645
+    second: hypercasual_button_UI_97
+  - first:
+      213: 513237852632065485
+    second: hypercasual_button_UI_98
+  - first:
+      213: 8684531815188402695
+    second: hypercasual_button_UI_99
+  - first:
+      213: 2494599131760666365
+    second: hypercasual_button_UI_100
+  - first:
+      213: -1210094294760786730
+    second: hypercasual_button_UI_101
+  - first:
+      213: -8694666946926066203
+    second: hypercasual_button_UI_102
+  - first:
+      213: -1373727207678690126
+    second: hypercasual_button_UI_103
+  - first:
+      213: 6296156686260177447
+    second: hypercasual_button_UI_104
+  - first:
+      213: 8910818375647456024
+    second: hypercasual_button_UI_105
+  - first:
+      213: 3921966335746073447
+    second: hypercasual_button_UI_106
+  - first:
+      213: -7826572203295567662
+    second: hypercasual_button_UI_108
+  - first:
+      213: -5635181941831456132
+    second: hypercasual_button_UI_116
+  - first:
+      213: -6237706596242013916
+    second: hypercasual_button_UI_118
+  - first:
+      213: -9123143347989317639
+    second: hypercasual_button_UI_119
+  - first:
+      213: -9075781201091998327
+    second: hypercasual_button_UI_120
+  - first:
+      213: 7743078371792260154
+    second: hypercasual_button_UI_121
+  - first:
+      213: 8484869483205415670
+    second: hypercasual_button_UI_122
+  - first:
+      213: -4486504762953371047
+    second: hypercasual_button_UI_123
+  - first:
+      213: -3091749899092026123
+    second: hypercasual_button_UI_124
+  - first:
+      213: 5613507640416305252
+    second: hypercasual_button_UI_125
+  - first:
+      213: 4386958237756610035
+    second: hypercasual_button_UI_126
+  - first:
+      213: -562917682138937528
+    second: hypercasual_button_UI_127
+  - first:
+      213: -6020735474977732036
+    second: hypercasual_button_UI_128
+  - first:
+      213: -1343204654089512473
+    second: hypercasual_button_UI_129
+  - first:
+      213: -7838902446803294307
+    second: hypercasual_button_UI_130
+  - first:
+      213: -3783593186979959899
+    second: hypercasual_button_UI_131
+  - first:
+      213: -7499800564754955491
+    second: hypercasual_button_UI_132
+  - first:
+      213: 1920712507446821503
+    second: hypercasual_button_UI_133
+  - first:
+      213: 5616755966857582978
+    second: hypercasual_button_UI_134
+  - first:
+      213: -9015993216335890017
+    second: hypercasual_button_UI_135
+  - first:
+      213: -1562301820913518002
+    second: hypercasual_button_UI_136
+  - first:
+      213: 6036846089008823702
+    second: hypercasual_button_UI_137
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hypercasual_button_UI_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1957
+        width: 223
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed4a82f9a9794cb0800000000000000
+      internalID: -4879234950453637662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_1
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1957
+        width: 136
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff788368c7f237140800000000000000
+      internalID: 4716165446661343231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_2
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1955
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84951372456f172e0800000000000000
+      internalID: -2129650307474302648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_3
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1957
+        width: 317
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c043f4c283c4fb20800000000000000
+      internalID: 3167371404365742273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_4
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1957
+        width: 538
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d1224a2ebe86630800000000000000
+      internalID: 3920642834274852154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_5
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 1667
+        width: 192
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91b0d62342a532a0800000000000000
+      internalID: -6758317256501841507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_6
+      rect:
+        serializedVersion: 2
+        x: 1730
+        y: 1667
+        width: 243
+        height: 358
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e630a6ca79ebbe830800000000000000
+      internalID: 4101581444292936558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1871
+        width: 223
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411eef8157aaf1d30800000000000000
+      internalID: 4404426380498886932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_8
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1870
+        width: 138
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c655663c8e21ef0800000000000000
+      internalID: -138792712561923062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_9
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1869
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 334de004aa3e9d0b0800000000000000
+      internalID: -5703277132729363405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_10
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1870
+        width: 316
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098533b07f8ab3de0800000000000000
+      internalID: -1352301484096399216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_11
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1870
+        width: 540
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc12acb008ad7080800000000000000
+      internalID: -9188002943647736589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1776
+        width: 223
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352866d578a7c56e0800000000000000
+      internalID: -1847467025322573229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_13
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1776
+        width: 136
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bc4f3f9b8647750800000000000000
+      internalID: 6301776926469311253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_14
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1775
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb79b03df8e59b30800000000000000
+      internalID: 4293593993909468128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_15
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1776
+        width: 316
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db403c639683e310800000000000000
+      internalID: 1433137074167368658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_16
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1776
+        width: 538
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0efe54f5fa62cb0800000000000000
+      internalID: -4889027521733992252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_17
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1690
+        width: 223
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556f3605e702c6920800000000000000
+      internalID: 2984796379926492757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_18
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1689
+        width: 138
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 281502a903f544f20800000000000000
+      internalID: 3405951880547815810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_19
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1688
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242184fad5782a120800000000000000
+      internalID: 2423648385921192514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_20
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1689
+        width: 316
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfd36a7da7b3ba50800000000000000
+      internalID: 6535769439955312585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_21
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1689
+        width: 540
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5071462f465f7cb20800000000000000
+      internalID: 3154759877908502277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_22
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1599
+        width: 223
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c23184c17b93f1be0800000000000000
+      internalID: -1504420291902172372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_23
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1599
+        width: 136
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b54c8c28267e8380800000000000000
+      internalID: -8967099893129919051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_24
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 1598
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acab709f29f4ca30800000000000000
+      internalID: 4234783532317912227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_25
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1599
+        width: 317
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ecfdbf862d3a560800000000000000
+      internalID: 7323928767378738766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_26
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1599
+        width: 538
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c54d20ace103d00800000000000000
+      internalID: 950293374354873403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_27
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 1273
+        width: 348
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f18f2eb0b97716ad0800000000000000
+      internalID: -2710753992897267681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_28
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 1273
+        width: 167
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92998269e8123a750800000000000000
+      internalID: 6314927998791883049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_29
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1516
+        width: 223
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2916ad0530658fa0800000000000000
+      internalID: -5799123164191123153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_30
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1516
+        width: 138
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f10f51a3d62313c0800000000000000
+      internalID: -4390122521368788495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_31
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1514
+        width: 76
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e70874ab3c390c0800000000000000
+      internalID: -4570093992019984785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_32
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 1516
+        width: 316
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da58f26709c73080800000000000000
+      internalID: -9207669879573292331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_33
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1516
+        width: 540
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 390a879feab2873b0800000000000000
+      internalID: -5514609713205436269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_34
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1307
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2422917899eb9d6c0800000000000000
+      internalID: -4118050817647762878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_35
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1278
+        width: 66
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a52f6a9863c8f520800000000000000
+      internalID: 2736151627662566821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_36
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1285
+        width: 84
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7beef8c3dbe86960800000000000000
+      internalID: 7595580066403117946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_37
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 1265
+        width: 71
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f26e3c9f0b1b310800000000000000
+      internalID: 1419109944378404712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_38
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1280
+        width: 83
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2763cb8397ed76e70800000000000000
+      internalID: 9108493383604385394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_39
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 1283
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6dd1b0ab1e9fae30800000000000000
+      internalID: 4517002792773213547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_40
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 1263
+        width: 92
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256eacc5dc719bb70800000000000000
+      internalID: 8915183108149143122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_41
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 1276
+        width: 74
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c8e80dc5057258a0800000000000000
+      internalID: -6317858659472185148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_42
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1269
+        width: 147
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643908ba5e2ac0bd0800000000000000
+      internalID: -2662574172374265018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_43
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 1286
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246de046dd89dbbd0800000000000000
+      internalID: -2612764132171131326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_44
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1248
+        width: 90
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214cd75f2225ef9d0800000000000000
+      internalID: -2738661213293657070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_48
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1111
+        width: 90
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc5b0c6bf94f3a20800000000000000
+      internalID: 3044233217324047560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_49
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1106
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdb28ff4957f63a0800000000000000
+      internalID: -6669983240310047242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_50
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1111
+        width: 98
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb9e624a6f92c790800000000000000
+      internalID: -7511265949770671141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_53
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1113
+        width: 93
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad9daacc941074f0800000000000000
+      internalID: -833143267415712340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_55
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1097
+        width: 101
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b411a4e522cfb650800000000000000
+      internalID: 6250928275818878137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_56
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 1092
+        width: 102
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2606b60d55fcee870800000000000000
+      internalID: 8714130296484356194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_57
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 1101
+        width: 62
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4adb945a140fa10800000000000000
+      internalID: 1941123617559258311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_59
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1094
+        width: 24
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02cbc3cd8b06f250800000000000000
+      internalID: 5977978258884117007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_60
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 1095
+        width: 25
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e82363361ff36410800000000000000
+      internalID: 1469298374269413605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_61
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 902
+        width: 193
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a45f9d3c0530000800000000000000
+      internalID: 933227035707977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_62
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 902
+        width: 244
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 405f59f0179284850800000000000000
+      internalID: 6361380039230354692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_69
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 1114
+        width: 76
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1320bcb1e75b800800000000000000
+      internalID: 627546380923187682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_71
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 904
+        width: 140
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f4285ae1ee8b99d0800000000000000
+      internalID: -2766460445138606861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_72
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 1032
+        width: 76
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7511416149264c0800000000000000
+      internalID: -4295708272011159622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_73
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 885
+        width: 133
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6caca25882cc7920800000000000000
+      internalID: 2989478143425555566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_74
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 915
+        width: 25
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affad40471602fa30800000000000000
+      internalID: 4247464095496646650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_76
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 915
+        width: 89
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd74c483175871860800000000000000
+      internalID: 7500610425731172316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_77
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 914
+        width: 71
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecab69800f53bd10800000000000000
+      internalID: 2140158703841291503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_78
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 904
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645c0d2433b296e70800000000000000
+      internalID: 9108859220497843526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_79
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 904
+        width: 66
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eae8939843d96880800000000000000
+      internalID: -8617124103329355038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_80
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 892
+        width: 77
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d5fb4b843f15cc20800000000000000
+      internalID: 3226019018616600019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_81
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 892
+        width: 77
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09411784ad237f5d0800000000000000
+      internalID: -3028896311283739504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_82
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 917
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6903089a1c8f08d0800000000000000
+      internalID: -2877927591019083412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_83
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 915
+        width: 25
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e47ec50693b9ee40800000000000000
+      internalID: 5686273461455844579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_86
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 878
+        width: 42
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70847e5785fbfeed0800000000000000
+      internalID: -2382475291199584249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_89
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 780
+        width: 132
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e677d9a9aa5393c0800000000000000
+      internalID: -4354036729991694624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_90
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 757
+        width: 81
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a81e2f47da72dc0800000000000000
+      internalID: -3663769054039930238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_91
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 531
+        width: 193
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e1659aa4eb086dc0800000000000000
+      internalID: -3645650821614050842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_92
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 531
+        width: 244
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b447c8ff03b535830800000000000000
+      internalID: 4058687955194901579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_93
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 691
+        width: 142
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fab83a4d0e8e9a20800000000000000
+      internalID: 3071048183644207863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_94
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 600
+        width: 261
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b33f9cdcac0446c0800000000000000
+      internalID: -4160186219208166472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_95
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 631
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9186266571a919e0800000000000000
+      internalID: -1650110262857530979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_96
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 631
+        width: 121
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e69d3520e57377450800000000000000
+      internalID: 6086394298320017774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_97
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 631
+        width: 121
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b776b31cd2b47d2b0800000000000000
+      internalID: -5559892555078080645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_98
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 630
+        width: 123
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc52b639b136f1700800000000000000
+      internalID: 513237852632065485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_99
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 631
+        width: 121
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70212ec5ca7a58870800000000000000
+      internalID: 8684531815188402695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_100
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 532
+        width: 90
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6a79181b89e9220800000000000000
+      internalID: 2494599131760666365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_101
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 496
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d47e0876a1e43fe0800000000000000
+      internalID: -1210094294760786730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_102
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 496
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e544246a76565780800000000000000
+      internalID: -8694666946926066203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_103
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 500
+        width: 91
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bcb508026a8fece0800000000000000
+      internalID: -1373727207678690126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_104
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 495
+        width: 91
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a0dbec521706750800000000000000
+      internalID: 6296156686260177447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_105
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 502
+        width: 119
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b6d72e91699ab70800000000000000
+      internalID: 8910818375647456024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_106
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 512
+        width: 74
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7636f275a9f9d6630800000000000000
+      internalID: 3921966335746073447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_108
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 502
+        width: 22
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d01f9d4c0e626390800000000000000
+      internalID: -7826572203295567662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_116
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 502
+        width: 23
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7aa07061efcbc1b0800000000000000
+      internalID: -5635181941831456132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_118
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 423
+        width: 280
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42142e546e63f69a0800000000000000
+      internalID: -6237706596242013916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_119
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 423
+        width: 169
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7f0242675146180800000000000000
+      internalID: -9123143347989317639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_120
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 422
+        width: 95
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d4eb945195c0280800000000000000
+      internalID: -9075781201091998327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_121
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 423
+        width: 396
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c00ba21c0f47b60800000000000000
+      internalID: 7743078371792260154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_122
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 423
+        width: 673
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2d20817df40c570800000000000000
+      internalID: 8484869483205415670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_123
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 366
+        width: 280
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952f01940bbbcb1c0800000000000000
+      internalID: -4486504762953371047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_124
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 366
+        width: 169
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc154af8d5e715d0800000000000000
+      internalID: -3091749899092026123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_125
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 365
+        width: 95
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46084f2157f27ed40800000000000000
+      internalID: 5613507640416305252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_126
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 366
+        width: 396
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5d4fd264b91ec30800000000000000
+      internalID: 4386958237756610035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_127
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 366
+        width: 673
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847825eb95d1038f0800000000000000
+      internalID: -562917682138937528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_128
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 309
+        width: 280
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a0c571cfc027ca0800000000000000
+      internalID: -6020735474977732036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_129
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 309
+        width: 171
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e9d754db7afb5de0800000000000000
+      internalID: -1343204654089512473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_130
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 308
+        width: 96
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d976955c1cf963390800000000000000
+      internalID: -7838902446803294307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_131
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 309
+        width: 396
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aba873fa0afd7bc0800000000000000
+      internalID: -3783593186979959899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_132
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 309
+        width: 675
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13c18b3f1b5be790800000000000000
+      internalID: -7499800564754955491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_133
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 158
+        width: 224
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f72840269ddb7aa10800000000000000
+      internalID: 1920712507446821503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_134
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 158
+        width: 135
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2891a920bc9b2fd40800000000000000
+      internalID: 5616755966857582978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_135
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 156
+        width: 76
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99b7f240f1c0e280800000000000000
+      internalID: -9015993216335890017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_136
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 158
+        width: 317
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4af08475c6915ae0800000000000000
+      internalID: -1562301820913518002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hypercasual_button_UI_137
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 158
+        width: 538
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69db31b888f27c350800000000000000
+      internalID: 6036846089008823702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 50c1304f35d3f324288be317a3afd853
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -506,7 +506,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1413844382911749333, guid: f9380d768564c424aa84571ba6acfa47, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -11.41
+      value: -28.37
       objectReference: {fileID: 0}
     - target: {fileID: 1413844382911749333, guid: f9380d768564c424aa84571ba6acfa47, type: 3}
       propertyPath: m_LocalRotation.w
@@ -874,7 +874,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8303112801947687624, guid: bec21d56eb58844dcbb25b880590c1ae, type: 3}
       propertyPath: m_Name
-      value: confetti_star
+      value: confetti_
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bec21d56eb58844dcbb25b880590c1ae, type: 3}
