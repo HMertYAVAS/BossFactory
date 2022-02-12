@@ -2,7 +2,7 @@ using DG.Tweening;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CollectOfBoxes : MonoBehaviour
+public class CollectOfBoxesController : MonoBehaviour
 {
     public List<GameObject> collectOfBoxesList;
     public int collectObjectListLine;
@@ -14,7 +14,7 @@ public class CollectOfBoxes : MonoBehaviour
     {
         get
         {
-            return collectObjectListLine < BoxesController.BoxesList.Count & collectObjectListLine < collectOfBoxesListCount;
+            return BoxesController.BoxesListLine < BoxesController.BoxesList.Count - 1 && collectObjectListLine < collectOfBoxesListCount;
         }
     }
 
@@ -44,7 +44,7 @@ public class CollectOfBoxes : MonoBehaviour
         BoxesController = triggerObject.GetComponent<BoxesController>();
         if (triggerObject.CompareTag("Player") && canCollect || triggerObject.CompareTag("Worker") && canCollect)
         {
-            collectOfBoxesList[collectObjectListLine].transform.DOMove(BoxesController.GetBoxesLinePosition(), 0.1f).OnComplete(() => CollectObject());
+            collectOfBoxesList[collectObjectListLine].transform.DOMove(BoxesController.GetBoxesLinePosition(), 0.15f).OnComplete(() => CollectObject());
         }
     }
     void CollectObject()

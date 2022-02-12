@@ -8,36 +8,36 @@ public class BantController : MonoBehaviour
 
     public List<GameObject> bantBoxes;
 
-    int bantCount;
-    int bantIndex;
+    //int bantCount;
+    //int bantIndex;
 
-    public TakeOffAreaScript takeOffAreaScript;
+    public TakeOffAreaController takeOffAreaScript;
 
     public GameObject takeOffBoxes;
 
     void Start()
     {
-        bantCount = 0;
-        bantIndex = 0;
+        //    bantCount = 0;
+        //    bantIndex = 0;
     }
 
     void Update()
     {
 
-        if (bantPeriodTime >= 0)
-            bantPeriodTime -= Time.deltaTime;
-        if (bantPeriodTime <= 0f && takeOffAreaScript.takeOffBoxAreaLine > 0)
-        {
-            bantBoxes[bantCount].gameObject.SetActive(true);
-            if (bantCount <= takeOffAreaScript.takeOffBoxAreaLine)
-            {
-                bantCount++;
-            }
-            bantPeriodTime = 2f;
-            Debug.Log(bantIndex);
-            takeOffBoxes.transform.GetChild(bantIndex).transform.gameObject.SetActive(false);
-            bantIndex++;
-        }
+        //if (bantPeriodTime >= 0)
+        //    bantPeriodTime -= Time.deltaTime;
+        //if (bantPeriodTime <= 0f && takeOffAreaScript.takeOffBoxAreaLine > 0)
+        //{
+        //    bantBoxes[bantCount].gameObject.SetActive(true);
+        //    if (bantCount <= takeOffAreaScript.takeOffBoxAreaLine)
+        //    {
+        //        bantCount++;
+        //    }
+        //    bantPeriodTime = 2f;
+        //    Debug.Log(bantIndex);
+        //    takeOffBoxes.transform.GetChild(bantIndex).transform.gameObject.SetActive(false);
+        //    bantIndex++;
+        //}
 
     }
 }

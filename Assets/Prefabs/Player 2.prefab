@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 8384972720594987385}
   - component: {fileID: 8384972720594987387}
   - component: {fileID: 8384972720594987384}
-  - component: {fileID: 8384972720594987380}
-  - component: {fileID: 2816380052266564034}
+  - component: {fileID: 1914464612}
+  - component: {fileID: 1914464613}
   m_Layer: 0
   m_Name: Player 2
   m_TagString: Player
@@ -66,7 +66,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
---- !u!114 &8384972720594987380
+--- !u!114 &1914464612
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -78,9 +78,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5323732f7f4c0024384504749fba69a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 8
+  playerSpeed: 6
   dynamicJoystick: {fileID: 0}
---- !u!114 &2816380052266564034
+--- !u!114 &1914464613
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
