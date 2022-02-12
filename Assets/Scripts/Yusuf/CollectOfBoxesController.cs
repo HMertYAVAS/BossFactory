@@ -14,7 +14,7 @@ public class CollectOfBoxesController : MonoBehaviour
     {
         get
         {
-            return BoxesController.BoxesListLine < BoxesController.BoxesList.Count && collectObjectListLine < collectOfBoxesListCount;
+            return BoxesController.BoxesListLine < BoxesController.BoxesList.Count -1 && collectObjectListLine < collectOfBoxesListCount;
         }
     }
 

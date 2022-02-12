@@ -41,14 +41,15 @@ public class BoxesController : MonoBehaviour
     }
     public void SetActiveBoxesObject()
     {
-        if (canCollect)
+        if (canCollect && BoxesListLine < BoxesList.Count - 1)
         {
             BoxesList[BoxesListLine].transform.gameObject.SetActive(true);
             BoxesListLine++;
-            if (BoxesListLine == BoxesList.Count - 1)
-            {
-                BoxesList[BoxesListLine].transform.gameObject.SetActive(true);
-            }
+            //if ()
+            //{
+                
+            //    //BoxesList[BoxesListLine].transform.gameObject.SetActive(true);
+            //}
         }
     }
     //býrakma bölgesinde býrakýlan kutularýn kapanmasýna yarýyor

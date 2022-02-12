@@ -15,7 +15,7 @@ public class TakeOffAreaController : MonoBehaviour
     {
         get
         {
-            return takeOffAreaBoxesLine < takeOffAreaBoxesList.Count && boxesController.BoxesListLine >= 0;
+            return takeOffAreaBoxesLine < takeOffAreaBoxesList.Count  && boxesController.BoxesListLine >= 0;
         }
     }
     private void Update()
