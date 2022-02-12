@@ -11,11 +11,15 @@ public class TakeOffAreaController : MonoBehaviour
 
     BoxesController boxesController;
 
+    private void Start()
+    {
+        takeOffAreaBoxesLine = -1;
+    }
     public bool canTakeOff
     {
         get
         {
-            return takeOffAreaBoxesLine < takeOffAreaBoxesList.Count  && boxesController.BoxesListLine >= 0;
+            return takeOffAreaBoxesLine < takeOffAreaBoxesList.Count && boxesController.BoxesListLine >= 0;
         }
     }
     private void Update()
@@ -42,6 +46,10 @@ public class TakeOffAreaController : MonoBehaviour
 
     Vector3 GetTakeOffAreaLinePosition()
     {
+        if (takeOffAreaBoxesLine < 0)
+        {
+            takeOffAreaBoxesLine++;
+        }
         return takeOffAreaBoxesList[takeOffAreaBoxesLine].transform.position;
     }
 
@@ -50,7 +58,6 @@ public class TakeOffAreaController : MonoBehaviour
         takeOffAreaBoxesList[takeOffAreaBoxesLine].gameObject.SetActive(true);
         takeOffAreaBoxesLine++;
         boxesController.SetDeactivatedBoxesObject();
-        //boxesController.ComeBackMainPosition();
         gameObject.GetComponent<BoxCollider>().enabled = false;
     }
 }

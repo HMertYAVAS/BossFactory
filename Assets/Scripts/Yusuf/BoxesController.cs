@@ -45,11 +45,6 @@ public class BoxesController : MonoBehaviour
         {
             BoxesList[BoxesListLine].transform.gameObject.SetActive(true);
             BoxesListLine++;
-            //if ()
-            //{
-                
-            //    //BoxesList[BoxesListLine].transform.gameObject.SetActive(true);
-            //}
         }
     }
     //býrakma bölgesinde býrakýlan kutularýn kapanmasýna yarýyor
