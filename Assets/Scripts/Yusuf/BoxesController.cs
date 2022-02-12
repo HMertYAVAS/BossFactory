@@ -43,12 +43,8 @@ public class BoxesController : MonoBehaviour
     {
         if (canCollect)
         {
-
             BoxesList[BoxesListLine].transform.gameObject.SetActive(true);
-            if (BoxesListLine < BoxesList.Count)
-            {
-                BoxesListLine++;
-            }
+            BoxesListLine++;
             if (BoxesListLine == BoxesList.Count - 1)
             {
                 BoxesList[BoxesListLine].transform.gameObject.SetActive(true);
