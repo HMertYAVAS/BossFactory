@@ -7,8 +7,15 @@ public class DoorAnimation : MonoBehaviour
     Animator animator;
 
 
-    private void OnCollisionEnter(Collision collision)
+
+    private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("trigger");
         gameObject.GetComponent<Animator>().SetTrigger("doorTrigger");
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        gameObject.GetComponent<Animator>().SetTrigger("doorclose");
     }
 }
