@@ -9,6 +9,7 @@ TagManager:
   - SoundManager
   - WorkerBuy
   - Worker
+  - FrontBandBoxe
   layers:
   - Default
   - TransparentFX
