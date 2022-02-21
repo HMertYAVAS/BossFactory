@@ -1,19 +1,26 @@
 using DG.Tweening;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CollectOfBoxesController : MonoBehaviour
+public class EndCollectAreaController : MonoBehaviour
 {
     public List<GameObject> collectOfBoxesList;
     public int collectObjectListLine;
     public List<Vector3> collectOfBoxesListMainPosition;
 
-
+    public bool canWorktoBand
+    {
+        get
+        {
+            return collectObjectListLine < collectOfBoxesList.Count - 1;
+        }
+    }
     public bool canCollect
     {
         get
         {
-            return collectObjectListLine > 0 && BoxesController.BoxesListLine < BoxesController.BoxesList.Count - 1 && collectObjectListLine <= collectOfBoxesList.Count;
+            return collectObjectListLine > 0 && BoxesController.BoxesListLine < BoxesController.BoxesList.Count && collectObjectListLine <= collectOfBoxesList.Count;
         }
     }
     public bool canAddBoxe
@@ -41,10 +48,10 @@ public class CollectOfBoxesController : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            AddBoxe();
-        }
+        //if (Input.GetKeyDown(KeyCode.Mouse0))
+        //{
+        //    AddBoxe();
+        //}
         //Objeleri sýrayla almasý için sürekli aç kapa yapýyoruz
         gameObject.GetComponent<BoxCollider>().enabled = true;
     }
@@ -58,16 +65,30 @@ public class CollectOfBoxesController : MonoBehaviour
             collectOfBoxesList[collectObjectListLine].transform.DOMove(BoxesController.GetBoxesLinePosition(), 0.15f).OnComplete(() => CollectObject());
         }
     }
+    private void OnTriggerExit(Collider other)
+    {
+        for (int i = 0; i < collectOfBoxesList.Count; i++)
+        {
+            if (collectOfBoxesList[i].transform.gameObject.activeInHierarchy)
+            {
+                collectOfBoxesList[i].transform.position = collectOfBoxesListMainPosition[i];
+            }
+        }
+    }
     void CollectObject()
     {
+        gameObject.GetComponent<BoxCollider>().enabled = false;
         if (collectObjectListLine > -1)
         {
-
             collectOfBoxesList[collectObjectListLine].transform.gameObject.SetActive(false);
             collectOfBoxesList[collectObjectListLine].transform.position = collectOfBoxesListMainPosition[collectObjectListLine];
             BoxesController.SetActiveBoxesObject();
         }
-        gameObject.GetComponent<BoxCollider>().enabled = false;
+
+    }
+    public Vector3 GetActiveLinePosition()
+    {
+        return collectOfBoxesListMainPosition[collectObjectListLine];
     }
     public void AddBoxe()
     {

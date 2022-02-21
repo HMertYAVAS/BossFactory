@@ -1,18 +1,22 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class FrontBandBoxesController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject firstStep;
+    public GameObject startPoint;
+    public float playTime;
 
-    // Update is called once per frame
+
     void Update()
     {
-        
+        transform.DOMove(firstStep.transform.position, playTime).OnComplete(() => SetDeactiveBoxes());
+    }
+    void SetDeactiveBoxes()
+    {
+        transform.gameObject.SetActive(false);
+        transform.position = startPoint.transform.position;
     }
 }

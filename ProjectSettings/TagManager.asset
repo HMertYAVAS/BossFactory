@@ -10,6 +10,7 @@ TagManager:
   - WorkerBuy
   - Worker
   - FrontBandBoxe
+  - BackBandBoxe
   layers:
   - Default
   - TransparentFX

@@ -10,7 +10,7 @@ public class FrontBandController : MonoBehaviour
     int boxesListLine;
     public float bandPeriodTime;
 
-    public float timer;
+    float timer;
     public Transform startPoint;
 
     public bool canWork
@@ -28,7 +28,6 @@ public class FrontBandController : MonoBehaviour
 
     private void Update()
     {
-
         if (timer >= 0 && takeOffAreaController.startTimer)
         {
             timer -= Time.deltaTime;
@@ -39,22 +38,19 @@ public class FrontBandController : MonoBehaviour
             timer = bandPeriodTime;
             MoveToStartPoint();
         }
-        //if (Input.GetKeyDown(KeyCode.Space))
-        //{
-        //    MoveToStartPoint();
-        //}
     }
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Box"))
         {
             other.gameObject.SetActive(false);
+            SetActiveBoxes();
         }
     }
+    #region For Band
     public void MoveToStartPoint()
     {
         takeOffAreaController.takeOffAreaBoxesList[takeOffAreaController.takeOffAreaBoxesLine - 1].transform.DOMove(startPoint.position, 1f).OnComplete(() => takeOffAreaController.CalltoMainPosition());
-        SetActiveBoxes();
     }
     public void SetActiveBoxes()
     {
@@ -66,14 +62,9 @@ public class FrontBandController : MonoBehaviour
             boxesListLine = 0;
         }
     }
-    public void SetDeActiveTakeOffAreaBoxes()
-    {
-        takeOffAreaController.takeOffAreaBoxesList[takeOffAreaController.takeOffAreaBoxesLine - 1].SetActive(false);
-    }
-    void SetTakeOffAreaLine()
-    {
-        takeOffAreaController.takeOffAreaBoxesLine--;
-    }
+    #endregion For Band
+    #region For Robots
+
     public void SetActiveBoxesForRobots()
     {
         //içinde tekrardan kontrol etmem robot kollarý için
@@ -90,4 +81,5 @@ public class FrontBandController : MonoBehaviour
             takeOffAreaController.takeOffAreaBoxesList[takeOffAreaController.takeOffAreaBoxesLine].SetActive(false);
         }
     }
+    #endregion
 }
