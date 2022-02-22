@@ -5,9 +5,6 @@ using UnityEngine;
 
 public class BackBandBoxeController : MonoBehaviour
 {
-    public float playTime;
-    public GameObject endPoint;
-    public GameObject areaPoint;
     public GameObject secondPoint;
 
     public EndCollectAreaController EndCollectAreaController;

@@ -14,7 +14,7 @@ public class BoxesController : MonoBehaviour
     {
         get
         {
-            return BoxesListLine < BoxesList.Count;
+            return BoxesListLine <= BoxesList.Count;
         }
     }
 
@@ -41,7 +41,7 @@ public class BoxesController : MonoBehaviour
     }
     public void SetActiveBoxesObject()
     {
-        if (canCollect && BoxesListLine < BoxesList.Count - 1)
+        if (canCollect)
         {
             BoxesList[BoxesListLine].transform.gameObject.SetActive(true);
             BoxesListLine++;

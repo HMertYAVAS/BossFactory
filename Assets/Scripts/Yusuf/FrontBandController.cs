@@ -54,6 +54,7 @@ public class FrontBandController : MonoBehaviour
     }
     public void SetActiveBoxes()
     {
+        Debug.Log("s");
         boxesList[boxesListLine].transform.gameObject.SetActive(true);
         boxesListLine++;
         //listenin sonuna gelirse baþa sarsmasý için yazýldý

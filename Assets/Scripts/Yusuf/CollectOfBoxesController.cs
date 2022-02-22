@@ -62,7 +62,6 @@ public class CollectOfBoxesController : MonoBehaviour
     {
         if (collectObjectListLine > -1)
         {
-
             collectOfBoxesList[collectObjectListLine].transform.gameObject.SetActive(false);
             collectOfBoxesList[collectObjectListLine].transform.position = collectOfBoxesListMainPosition[collectObjectListLine];
             BoxesController.SetActiveBoxesObject();

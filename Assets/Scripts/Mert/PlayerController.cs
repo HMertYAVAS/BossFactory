@@ -22,14 +22,11 @@ public class PlayerController : MonoBehaviour
 
     }
 
-
     Animator animator;
 
     public float playerSpeed;
 
     public DynamicJoystick dynamicJoystick;
-
-
 
     Rigidbody rb;
 
