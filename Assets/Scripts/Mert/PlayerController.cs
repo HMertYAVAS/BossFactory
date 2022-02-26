@@ -6,6 +6,7 @@ using TMPro;
 public class PlayerController : MonoBehaviour
 {
     static public PlayerController instance;
+
     private void Awake()
     {
         animator = transform.GetChild(1).GetComponent<Animator>();
@@ -22,18 +23,18 @@ public class PlayerController : MonoBehaviour
 
     }
 
+    BoxesController boxesController;
     Animator animator;
-
     public float playerSpeed;
-
     public DynamicJoystick dynamicJoystick;
-
     Rigidbody rb;
+    public bool run;
 
     Vector3 direction;
     private void Start()
     {
         rb = transform.GetComponent<Rigidbody>();
+        boxesController = GetComponent<BoxesController>();
     }
 
     public void FixedUpdate()
@@ -44,15 +45,49 @@ public class PlayerController : MonoBehaviour
     {
         transform.position += new Vector3(dynamicJoystick.Horizontal * Time.deltaTime * playerSpeed, 0, dynamicJoystick.Vertical * Time.deltaTime * playerSpeed);
         direction = Vector3.forward * dynamicJoystick.Vertical + Vector3.right * dynamicJoystick.Horizontal;
+        Debug.Log(dynamicJoystick.Horizontal + dynamicJoystick.Vertical);
         if (direction != Vector3.zero)
         {
             transform.localRotation = Quaternion.LookRotation(-direction * playerSpeed * Time.fixedDeltaTime);
-            animator.SetBool("run", true);
+
         }
         else
         {
             rb.velocity = Vector3.zero;
-            animator.SetBool("run", false);
+        }
+
+        PlayerAnimationControl();
+
+    }
+
+    void PlayerAnimationControl()
+    {
+
+        if ((dynamicJoystick.Horizontal + dynamicJoystick.Vertical) != 0 && run)
+        {
+            if (boxesController.BoxesListLine > 0 && run)
+            {
+                animator.SetTrigger("TransportationTrigger");
+            }
+            else
+            {
+                animator.SetTrigger("runningTrigger");
+            }
+            run = false;
+        }
+        else if (dynamicJoystick.Horizontal + dynamicJoystick.Vertical == 0 && !run)
+        {
+            if (boxesController.BoxesListLine > 0)
+            {
+                animator.SetTrigger("transportationDontwalkTrigger");
+            }
+            else
+            {
+
+                animator.SetTrigger("idleTrigger");
+            }
+            run = true;
+        }
+
         }
     }
-}

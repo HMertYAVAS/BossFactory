@@ -30,16 +30,16 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -5347454980316108893}
-    m_Position: {x: 70, y: 480, z: 0}
+    m_Position: {x: 110, y: 480, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4605951976747676858}
     m_Position: {x: -220, y: 350, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4771533238891857969}
-    m_Position: {x: 70, y: 580, z: 0}
+    m_Position: {x: 120, y: 610, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4998986876702862732}
-    m_Position: {x: 70, y: 350, z: 0}
+    m_Position: {x: 100, y: 350, z: 0}
   m_ChildStateMachines:
   - serializedVersion: 1
     m_StateMachine: {fileID: -9054715426315092541}
@@ -52,7 +52,7 @@ AnimatorStateMachine:
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: -200, y: 590, z: 0}
+  m_AnyStatePosition: {x: -200, y: 620, z: 0}
   m_EntryPosition: {x: -200, y: 170, z: 0}
   m_ExitPosition: {x: 50, y: -40, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
@@ -117,18 +117,6 @@ AnimatorController:
   m_Name: worker
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: run
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-  - m_Name: transportation
-    m_Type: 4
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 0}
   - m_Name: Blend
     m_Type: 1
     m_DefaultFloat: 0.5
@@ -192,7 +180,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0.25
   m_TransitionOffset: 0
   m_ExitTime: 0.97483224
-  m_HasExitTime: 0
+  m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -371,7 +359,7 @@ AnimatorStateTransition:
   m_IsExit: 0
   serializedVersion: 3
   m_TransitionDuration: 0.25
-  m_TransitionOffset: 0
+  m_TransitionOffset: 0.32603118
   m_ExitTime: 0.75
   m_HasExitTime: 0
   m_HasFixedDuration: 1
