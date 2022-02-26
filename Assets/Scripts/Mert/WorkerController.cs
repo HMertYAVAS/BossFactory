@@ -17,58 +17,81 @@ public class WorkerController : MonoBehaviour
 
     bool playerInTrigger;
 
-    public int workerPrice;
+    //public int workerPrice;
 
-    public Transform WorkStation;
-    public Transform TakeOffAreaTransform;
+    public Transform way1;
+    public Transform way2;
+    public Transform way3;
+    public Transform way4;
 
     private void Start()
     {
         DOTween.Init();
         workTimeTemp = workTime;
+        movingWorker();
     }
 
-    public void BuyToWorkerCoroutine()
-    {
-        StartCoroutine(BuyToWorker());
-    }
+    //public void BuyToWorkerCoroutine()
+    //{
+    //    StartCoroutine(BuyToWorker());
+    //}
 
 
-    IEnumerator BuyToWorker()
-    {
-        yield return new WaitForSeconds(1f);
-        if (workerPrice <= MoneyController.instance.money)
-        {
-            MoneyController.instance.money -= workerPrice;
-            movingWorker();
+    //IEnumerator BuyToWorker()
+    //{
+    //    yield return new WaitForSeconds(1f);
+    //    if (workerPrice <= MoneyController.instance.money)
+    //    {
+    //        MoneyController.instance.money -= workerPrice;
+    //        movingWorker();
 
-        }
-    }
+    //    }
+    //}
 
     void movingWorker()
     {
-        if (workTime > 0)
+        if (workTime > 1)
         {
             seq = DOTween.Sequence();
 
-            seq.Append(transform.DOMove(WorkStation.transform.position, moveTime));
+            seq.Append(transform.DOMove(way2.transform.position, moveTime).SetEase(Ease.OutCubic))
             // TODO: OnComplete içinde func deðiþtirilecek. Uygun tracking noktalarý eklendiðinde.
-            seq.Append(transform.DOMove(TakeOffAreaTransform.position, moveTime).OnComplete(movingWorker));
-            workTime --;
+                .Append(transform.DOMove(way3.transform.position, moveTime).SetEase(Ease.OutCubic))
+                .Append(transform.DOMove(way4.position, moveTime).SetEase(Ease.OutCubic).OnComplete(SleepWorker));
+            workTime--;
         }
         else
         {
             // TODO Burasý uyku noktasý
             //this.gameObject.SetActive(false);
-            StartCoroutine(SleepWorker());
-            
+            StartCoroutine(SleepWorkerNum());
+
         }
     }
 
-    IEnumerator SleepWorker()
+    void RestartWorker()
     {
-        yield return new WaitForSeconds(4);
+        if (workTime > 0)
+        {
+            seq = DOTween.Sequence();
+
+            seq.Append(transform.DOMove(way3.transform.position, moveTime).SetEase(Ease.OutCubic))
+            // TODO: OnComplete içinde func deðiþtirilecek. Uygun tracking noktalarý eklendiðinde.
+                .Append(transform.DOMove(way2.transform.position, moveTime).SetEase(Ease.OutCubic))
+                .Append(transform.DOMove(way1.position, moveTime).SetEase(Ease.OutCubic).OnComplete(movingWorker));
+            workTime--;
+        }
+    }
+
+    void SleepWorker()
+    {
+        StartCoroutine(SleepWorkerNum());
+    }
+
+    IEnumerator SleepWorkerNum()
+    {
+        yield return new WaitForSeconds(2);
         workTime = workTimeTemp;
-        movingWorker();
+        RestartWorker();
     }
 }
