@@ -45,7 +45,7 @@ public class PlayerController : MonoBehaviour
     {
         transform.position += new Vector3(dynamicJoystick.Horizontal * Time.deltaTime * playerSpeed, 0, dynamicJoystick.Vertical * Time.deltaTime * playerSpeed);
         direction = Vector3.forward * dynamicJoystick.Vertical + Vector3.right * dynamicJoystick.Horizontal;
-        Debug.Log(dynamicJoystick.Horizontal + dynamicJoystick.Vertical);
+
         if (direction != Vector3.zero)
         {
             transform.localRotation = Quaternion.LookRotation(-direction * playerSpeed * Time.fixedDeltaTime);

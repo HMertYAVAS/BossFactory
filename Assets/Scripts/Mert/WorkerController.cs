@@ -37,9 +37,9 @@ public class WorkerController : MonoBehaviour
     IEnumerator BuyToWorker()
     {
         yield return new WaitForSeconds(1f);
-        if (workerPrice <= MoneyUI.instance.money)
+        if (workerPrice <= MoneyController.instance.money)
         {
-            MoneyUI.instance.money -= workerPrice;
+            MoneyController.instance.money -= workerPrice;
             movingWorker();
 
         }

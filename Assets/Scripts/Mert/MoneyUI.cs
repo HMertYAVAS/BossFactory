@@ -5,15 +5,12 @@ using TMPro;
 
 public class MoneyUI : MonoBehaviour
 {
+    #region instance Control
+
     public static MoneyUI instance;
-
-
-    public TMP_Text moneyText;
-    public int money;
 
     private void Awake()
     {
-        #region instance Control
         if (instance != null)
         {
             Destroy(gameObject);
@@ -22,17 +19,19 @@ public class MoneyUI : MonoBehaviour
         {
             instance = this;
         }
-        #endregion
 
     }
+    #endregion
+
+    public TMP_Text moneyText;
     private void Update()
     {
-        moneyText.text = money.ToString();
+        moneyText.text = MoneyController.instance.money.ToString();
     }
 
     private void Start()
     {
-        moneyText.text = money.ToString();
+        moneyText.text = MoneyController.instance.money.ToString();
     }
 
 
