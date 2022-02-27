@@ -9,12 +9,10 @@ public class FrontBandBoxesController : MonoBehaviour
     public GameObject startPoint;
     public float playTime;
 
-
-    void Update()
+    private void OnEnable()
     {
         transform.DOMove(firstStep.transform.position, playTime).OnComplete(() => SetDeactiveBoxes());
     }
-
     void SetDeactiveBoxes()
     {
         transform.gameObject.SetActive(false);

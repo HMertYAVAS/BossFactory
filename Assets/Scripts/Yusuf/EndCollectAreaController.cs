@@ -48,10 +48,6 @@ public class EndCollectAreaController : MonoBehaviour
     }
     private void Update()
     {
-        //if (Input.GetKeyDown(KeyCode.Mouse0))
-        //{
-        //    AddBoxe();
-        //}
         //Objeleri sýrayla almasý için sürekli aç kapa yapýyoruz
         gameObject.GetComponent<BoxCollider>().enabled = true;
     }
@@ -59,32 +55,26 @@ public class EndCollectAreaController : MonoBehaviour
     {
         triggerObject = other.transform.gameObject;
         BoxesController = triggerObject.GetComponent<BoxesController>();
-        if (triggerObject.CompareTag("Player") && canCollect || triggerObject.CompareTag("Worker") && canCollect)
+        if (triggerObject.CompareTag("Player") && canCollect || triggerObject.CompareTag("Worker") && canCollect || triggerObject.CompareTag("HaveProduct") && canCollect)
         {
             collectObjectListLine--;
+            triggerObject.gameObject.tag = "HaveProduct";
             collectOfBoxesList[collectObjectListLine].transform.DOMove(BoxesController.GetBoxesLinePosition(), 0.15f).OnComplete(() => CollectObject());
+            collectOfBoxesList[collectObjectListLine].transform.gameObject.SetActive(false);
         }
     }
     private void OnTriggerExit(Collider other)
     {
         for (int i = 0; i < collectOfBoxesList.Count; i++)
         {
-            if (collectOfBoxesList[i].transform.gameObject.activeInHierarchy)
-            {
-                collectOfBoxesList[i].transform.position = collectOfBoxesListMainPosition[i];
-            }
+            collectOfBoxesList[i].transform.position = collectOfBoxesListMainPosition[i];
         }
     }
     void CollectObject()
     {
+        BoxesController.SetActiveProductObject();
+        //collectOfBoxesList[collectObjectListLine].transform.position = collectOfBoxesListMainPosition[collectObjectListLine];
         gameObject.GetComponent<BoxCollider>().enabled = false;
-        if (collectObjectListLine > -1)
-        {
-            collectOfBoxesList[collectObjectListLine].transform.gameObject.SetActive(false);
-            collectOfBoxesList[collectObjectListLine].transform.position = collectOfBoxesListMainPosition[collectObjectListLine];
-            BoxesController.SetActiveBoxesObject();
-        }
-
     }
     public Vector3 GetActiveLinePosition()
     {

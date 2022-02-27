@@ -6,6 +6,7 @@ public class BoxesController : MonoBehaviour
 {
     public List<GameObject> BoxesList;
     public List<Vector3> BoxesListMainPosition;
+    public List<GameObject> ProductList;
     public int BoxesListLine;
 
     Vector3 position;
@@ -20,11 +21,17 @@ public class BoxesController : MonoBehaviour
 
     private void Start()
     {
-        BoxesListLine = -1;
-
         for (int i = 0; i < BoxesList.Count; i++)
         {
             BoxesListMainPosition.Add(BoxesList[i].transform.localPosition);
+        }
+    }
+
+    private void Update()
+    {
+        if (BoxesListLine == 0)
+        {
+            gameObject.tag = "Player";
         }
     }
     public Vector3 GetBoxesLinePosition()
@@ -39,6 +46,27 @@ public class BoxesController : MonoBehaviour
         }
         return position;
     }
+    #region MethodsForProductList
+    public void SetActiveProductObject()
+    {
+        ProductList[BoxesListLine].transform.gameObject.SetActive(true);
+        BoxesListLine++;
+    }
+    public void SetDeactivatedProductObject()
+    {
+        ProductList[BoxesListLine].transform.gameObject.SetActive(false);
+        if (BoxesListLine > 0)
+        {
+            BoxesListLine--;
+        }
+        if (BoxesListLine == 0)
+        {
+            ProductList[BoxesListLine].transform.gameObject.SetActive(false);
+            BoxesListLine = -1;
+        }
+    }
+    #endregion
+    #region MethodsForBoxesList
     public void SetActiveBoxesObject()
     {
         if (canCollect)
@@ -47,18 +75,15 @@ public class BoxesController : MonoBehaviour
             BoxesListLine++;
         }
     }
+
     //býrakma bölgesinde býrakýlan kutularýn kapanmasýna yarýyor
     public void SetDeactivatedBoxesObject()
     {
-        if (canCollect)
-        {
-            BoxesList[BoxesListLine].transform.gameObject.SetActive(false);
-            if (BoxesListLine >= 0)
-            {
-                BoxesListLine--;
-            }
-        }
+        Debug.Log("çali");
+        BoxesList[BoxesListLine].transform.gameObject.SetActive(false);
+        BoxesListLine--;
     }
+    #endregion
     public void ComeBackMainPosition()
     {
         for (int i = 0; i < BoxesList.Count; i++)

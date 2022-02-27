@@ -10,14 +10,14 @@ public class FrontBandController : MonoBehaviour
     int boxesListLine;
     public float bandPeriodTime;
 
-    float timer;
+    public float timer;
     public Transform startPoint;
 
     public bool canWork
     {
         get
         {
-            return takeOffAreaController.takeOffAreaBoxesLine > 0 && timer <= 0;
+            return takeOffAreaController.takeOffAreaBoxesLine > 0 && timer <= 0 && takeOffAreaController.canWork;
         }
     }
     private void Start()
@@ -54,7 +54,6 @@ public class FrontBandController : MonoBehaviour
     }
     public void SetActiveBoxes()
     {
-        Debug.Log("s");
         boxesList[boxesListLine].transform.gameObject.SetActive(true);
         boxesListLine++;
         //listenin sonuna gelirse baþa sarsmasý için yazýldý
@@ -65,7 +64,6 @@ public class FrontBandController : MonoBehaviour
     }
     #endregion For Band
     #region For Robots
-
     public void SetActiveBoxesForRobots()
     {
         //içinde tekrardan kontrol etmem robot kollarý için

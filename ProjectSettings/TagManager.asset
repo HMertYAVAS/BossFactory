@@ -11,6 +11,8 @@ TagManager:
   - Worker
   - FrontBandBoxe
   - BackBandBoxe
+  - HaveBox
+  - HaveProduct
   layers:
   - Default
   - TransparentFX

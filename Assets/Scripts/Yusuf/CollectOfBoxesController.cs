@@ -13,7 +13,7 @@ public class CollectOfBoxesController : MonoBehaviour
     {
         get
         {
-            return collectObjectListLine > 0 && BoxesController.BoxesListLine < BoxesController.BoxesList.Count - 1 && collectObjectListLine <= collectOfBoxesList.Count;
+            return collectObjectListLine > 0 && BoxesController.BoxesListLine < BoxesController.BoxesList.Count && collectObjectListLine <= collectOfBoxesList.Count;
         }
     }
     public bool canAddBoxe
@@ -41,10 +41,6 @@ public class CollectOfBoxesController : MonoBehaviour
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            AddBoxe();
-        }
         //Objeleri sýrayla almasý için sürekli aç kapa yapýyoruz
         gameObject.GetComponent<BoxCollider>().enabled = true;
     }
@@ -52,8 +48,9 @@ public class CollectOfBoxesController : MonoBehaviour
     {
         triggerObject = other.transform.gameObject;
         BoxesController = triggerObject.GetComponent<BoxesController>();
-        if (triggerObject.CompareTag("Player") && canCollect || triggerObject.CompareTag("Worker") && canCollect)
+        if (triggerObject.CompareTag("Player") && canCollect || triggerObject.CompareTag("Worker") && canCollect || triggerObject.CompareTag("HaveBox") && canCollect)
         {
+            triggerObject.gameObject.tag = "HaveBox";
             collectObjectListLine--;
             collectOfBoxesList[collectObjectListLine].transform.DOMove(BoxesController.GetBoxesLinePosition(), 0.15f).OnComplete(() => CollectObject());
         }
