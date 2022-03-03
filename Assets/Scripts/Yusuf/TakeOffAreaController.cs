@@ -76,9 +76,9 @@ public class TakeOffAreaController : MonoBehaviour
 
     void SetActiveObject()
     {
+
         takeOffAreaBoxesList[takeOffAreaBoxesLine].gameObject.SetActive(true);
         takeOffAreaBoxesLine++;
-        // boxesController.SetDeactivatedBoxesObject();
         boxesController.BoxesList[boxesController.BoxesListLine].transform.gameObject.SetActive(false);
         gameObject.GetComponent<BoxCollider>().enabled = false;
     }

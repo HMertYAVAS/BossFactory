@@ -1,5 +1,4 @@
 using DG.Tweening;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -57,28 +56,20 @@ public class EndCollectAreaController : MonoBehaviour
         BoxesController = triggerObject.GetComponent<BoxesController>();
         if (triggerObject.CompareTag("Player") && canCollect || triggerObject.CompareTag("Worker") && canCollect || triggerObject.CompareTag("HaveProduct") && canCollect)
         {
-            collectObjectListLine--;
             triggerObject.gameObject.tag = "HaveProduct";
+            collectObjectListLine--;
             collectOfBoxesList[collectObjectListLine].transform.DOMove(BoxesController.GetBoxesLinePosition(), 0.15f).OnComplete(() => CollectObject());
-            collectOfBoxesList[collectObjectListLine].transform.gameObject.SetActive(false);
-        }
-    }
-    private void OnTriggerExit(Collider other)
-    {
-        for (int i = 0; i < collectOfBoxesList.Count; i++)
-        {
-            collectOfBoxesList[i].transform.position = collectOfBoxesListMainPosition[i];
         }
     }
     void CollectObject()
     {
-        BoxesController.SetActiveProductObject();
-        //collectOfBoxesList[collectObjectListLine].transform.position = collectOfBoxesListMainPosition[collectObjectListLine];
+        if (collectObjectListLine > -1)
+        {
+            collectOfBoxesList[collectObjectListLine].transform.gameObject.SetActive(false);
+            collectOfBoxesList[collectObjectListLine].transform.position = collectOfBoxesListMainPosition[collectObjectListLine];
+            BoxesController.SetActiveProductObject();
+        }
         gameObject.GetComponent<BoxCollider>().enabled = false;
-    }
-    public Vector3 GetActiveLinePosition()
-    {
-        return collectOfBoxesListMainPosition[collectObjectListLine];
     }
     public void AddBoxe()
     {
@@ -87,5 +78,9 @@ public class EndCollectAreaController : MonoBehaviour
             collectOfBoxesList[collectObjectListLine].transform.gameObject.SetActive(true);
             collectObjectListLine++;
         }
+    }
+    public Vector3 GetActiveLinePosition()
+    {
+        return collectOfBoxesListMainPosition[collectObjectListLine];
     }
 }

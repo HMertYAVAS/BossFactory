@@ -11,6 +11,8 @@ public class BoxesController : MonoBehaviour
 
     Vector3 position;
 
+    public GameObject takeOffMarket;
+
     public bool canCollect
     {
         get
@@ -49,21 +51,26 @@ public class BoxesController : MonoBehaviour
     #region MethodsForProductList
     public void SetActiveProductObject()
     {
-        ProductList[BoxesListLine].transform.gameObject.SetActive(true);
-        BoxesListLine++;
+        if (canCollect)
+        {
+            ProductList[BoxesListLine].transform.gameObject.SetActive(true);
+            BoxesListLine++;
+        }
     }
     public void SetDeactivatedProductObject()
     {
-        ProductList[BoxesListLine].transform.gameObject.SetActive(false);
-        if (BoxesListLine > 0)
+        if (BoxesListLine >= 0)
         {
             BoxesListLine--;
         }
-        if (BoxesListLine == 0)
-        {
-            ProductList[BoxesListLine].transform.gameObject.SetActive(false);
-            BoxesListLine = -1;
-        }
+        ProductList[BoxesListLine].transform.gameObject.SetActive(false);
+
+        //if (BoxesListLine == 0)
+        //{
+        //    ProductList[BoxesListLine].transform.gameObject.SetActive(false);
+        //    BoxesListLine = -1;
+        //}
+        takeOffMarket.gameObject.GetComponent<BoxCollider>().enabled = false;
     }
     #endregion
     #region MethodsForBoxesList
@@ -79,7 +86,6 @@ public class BoxesController : MonoBehaviour
     //býrakma bölgesinde býrakýlan kutularýn kapanmasýna yarýyor
     public void SetDeactivatedBoxesObject()
     {
-        Debug.Log("çali");
         BoxesList[BoxesListLine].transform.gameObject.SetActive(false);
         BoxesListLine--;
     }

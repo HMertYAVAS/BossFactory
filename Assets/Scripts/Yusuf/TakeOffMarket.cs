@@ -12,7 +12,6 @@ public class TakeOffMarket : MonoBehaviour
 
     BoxesController boxesController;
 
-    public bool startTimer;
     private void Start()
     {
         takeOffMarketBoxesLine = -1;
@@ -38,16 +37,16 @@ public class TakeOffMarket : MonoBehaviour
         if (other.gameObject.CompareTag("HaveProduct") && canTakeOff)
         {
             //kutunun yere hareketi
-            boxesController.BoxesListLine--;
+                    boxesController.BoxesListLine--;
+
             boxesController.GetBoxesObject().transform.DOMove(GetTakeOffAreaLinePosition(), 0.15f).OnComplete(() => SetActiveObject());
-            startTimer = true;
         }
     }
     private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.CompareTag("Player") || other.gameObject.CompareTag("Worker") || other.gameObject.CompareTag("HaveProduct"))
         {
-            boxesController.ComeBackMainPosition();
+           // boxesController.ComeBackMainPosition();
         }
     }
 
