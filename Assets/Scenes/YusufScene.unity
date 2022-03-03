@@ -5141,8 +5141,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a492fadd566af7b4bb147abd75fd730a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  takeOffMarketBoxesLine: 0
-  takeOffMarketBoxesList:
+  takeOffAreaBoxesLine: 0
+  takeOffAreaBoxesList:
   - {fileID: 1577338853}
   - {fileID: 536266231}
   - {fileID: 497896623}
@@ -5159,7 +5159,8 @@ MonoBehaviour:
   - {fileID: 1565643971}
   - {fileID: 1777859159}
   - {fileID: 516614791}
-  takeOffMarketBoxesListMainPosition: []
+  takeOffAreaBoxesListMainPosition: []
+  startTimer: 0
 --- !u!224 &1473259197 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8135886326569738822, guid: 56fae09712773584fb63896d473a98ee, type: 3}
