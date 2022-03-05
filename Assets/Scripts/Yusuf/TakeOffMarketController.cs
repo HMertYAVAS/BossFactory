@@ -69,6 +69,7 @@ public class TakeOffMarketController : MonoBehaviour
         takeOffAreaBoxesList[takeOffAreaBoxesLine].gameObject.SetActive(true);
         takeOffAreaBoxesLine++;
         boxesController.ProductList[boxesController.BoxesListLine].transform.gameObject.SetActive(false);
+        MoneyController.instance.SellItem(10);
         gameObject.GetComponent<BoxCollider>().enabled = false;
     }
     public void CalltoMainPosition()
