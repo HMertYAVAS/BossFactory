@@ -9,7 +9,9 @@ public class WorkerController : MonoBehaviour
     public float moveTime;
     public float workTime;
     float workTimeTemp;
+    Animator animator;
 
+    BoxesController boxesController;
 
     Sequence seq;
 
@@ -26,6 +28,8 @@ public class WorkerController : MonoBehaviour
 
     private void Start()
     {
+        animator = GetComponent<Animator>();
+        boxesController = GetComponent<BoxesController>();
         DOTween.Init();
         workTimeTemp = workTime;
         movingWorker();
@@ -52,17 +56,26 @@ public class WorkerController : MonoBehaviour
     {
         if (workTime > 1)
         {
-            seq = DOTween.Sequence();
+            if (boxesController.BoxesListLine > 0)
+            {
+                animator.SetTrigger("TransportationTrigger");
+            }
+            else
+            {
+                animator.SetTrigger("runningTrigger");
+            }
 
-            seq.Append(transform.DOMove(way2.transform.position, moveTime).SetEase(Ease.OutCubic))
-            // TODO: OnComplete içinde func deðiþtirilecek. Uygun tracking noktalarý eklendiðinde.
-                .Append(transform.DOMove(way3.transform.position, moveTime).SetEase(Ease.OutCubic))
-                .Append(transform.DOMove(way4.position, moveTime).SetEase(Ease.OutCubic).OnComplete(SleepWorker));
+            seq = DOTween.Sequence();
+            LookAtWorker(way2);
+            seq.Append(transform.DOMove(way2.transform.position, moveTime)).OnComplete(() => LookAtWorker(way3))
+            // TODO: OnComplete iï¿½inde func deï¿½iï¿½tirilecek. Uygun tracking noktalarï¿½ eklendiï¿½inde.
+                .Append(transform.DOMove(way3.transform.position, moveTime)).OnComplete(() => LookAtWorker(way4))
+                .Append(transform.DOMove(way4.position, moveTime).OnComplete(SleepWorker));
             workTime--;
         }
         else
         {
-            // TODO Burasý uyku noktasý
+            // TODO Burasï¿½ uyku noktasï¿½
             //this.gameObject.SetActive(false);
             StartCoroutine(SleepWorkerNum());
 
@@ -75,10 +88,11 @@ public class WorkerController : MonoBehaviour
         {
             seq = DOTween.Sequence();
 
-            seq.Append(transform.DOMove(way3.transform.position, moveTime).SetEase(Ease.OutCubic))
-            // TODO: OnComplete içinde func deðiþtirilecek. Uygun tracking noktalarý eklendiðinde.
-                .Append(transform.DOMove(way2.transform.position, moveTime).SetEase(Ease.OutCubic))
-                .Append(transform.DOMove(way1.position, moveTime).SetEase(Ease.OutCubic).OnComplete(movingWorker));
+            LookAtWorker(way3);
+            seq.Append(transform.DOMove(way3.transform.position, moveTime)).OnComplete(() => LookAtWorker(way2))
+            // TODO: OnComplete iï¿½inde func deï¿½iï¿½tirilecek. Uygun tracking noktalarï¿½ eklendiï¿½inde.
+                .Append(transform.DOMove(way2.transform.position, moveTime)).OnComplete(() => LookAtWorker(way1))
+                .Append(transform.DOMove(way1.position, moveTime).OnComplete(movingWorker));
             workTime--;
         }
     }
@@ -94,4 +108,37 @@ public class WorkerController : MonoBehaviour
         workTime = workTimeTemp;
         RestartWorker();
     }
+
+    void LookAtWorker(Transform look){
+        transform.LookAt(look , Vector3.zero);
+    }
+
+    // void WorkerAnimationControl()
+    // {
+
+    //     if ((dynamicJoystick.Horizontal + dynamicJoystick.Vertical) != 0 && run)
+    //     {
+    //         if (boxesController.BoxesListLine > 0 && run)
+    //         {
+    //             animator.SetTrigger("TransportationTrigger");
+    //         }
+    //         else
+    //         {
+    //             animator.SetTrigger("runningTrigger");
+    //         }
+    //         run = false;
+    //     }
+    //     else if (dynamicJoystick.Horizontal + dynamicJoystick.Vertical == 0 && !run)
+    //     {
+    //         if (boxesController.BoxesListLine > 0)
+    //         {
+    //             animator.SetTrigger("transportationDontwalkTrigger");
+    //         }
+    //         else
+    //         {
+    //             animator.SetTrigger("idleTrigger");
+    //         }
+    //         run = true;
+    //     }
+    // }
 }
