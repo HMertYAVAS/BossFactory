@@ -23,7 +23,6 @@ public class TakeOffMarketController : MonoBehaviour
         {
             takeOffAreaBoxesListMainPosition.Add(takeOffAreaBoxesList[i].transform.localPosition);
         }
-
     }
 
     public bool canTakeOff

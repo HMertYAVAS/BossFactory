@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/YusufScene.unity
-    guid: a6186876f8c0ddf48a0e1a9cf9eb2666
+    path: Assets/Scenes/MertScene.unity
+    guid: 589c0d87da55613469fab44feacda2fc
   m_configObjects: {}
