@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,12 +12,21 @@ public class UpgradeObjects : MonoBehaviour
     public ParticleSystem upgradeEffect;
 
     public Text buyObjectText;
+    private SoundManager _soundManager;
     bool buyItemBool = true;
 
     void Awake()
     {
         buyObjectText.text = value.ToString();
     }
+
+    private void Start()
+    {
+        _soundManager = GameObject.FindObjectOfType<SoundManager>();
+
+    }
+
+
     void OnTriggerStay(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -49,6 +59,7 @@ public class UpgradeObjects : MonoBehaviour
     {
             MoneyController.instance.BuyItem();
             yield return new WaitForSeconds(0.01f);
+            _soundManager.PlayerCashSound();
             value--;
             buyObjectText.text = value.ToString();
             buyItemBool=true;
