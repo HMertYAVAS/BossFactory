@@ -15,7 +15,7 @@ public class WorkerController : MonoBehaviour
 
     Sequence seq;
 
-
+    Transform lookTrans;
 
     bool playerInTrigger;
 
@@ -52,6 +52,10 @@ public class WorkerController : MonoBehaviour
     //    }
     //}
 
+    private void Update() {
+        transform.LookAt(lookTrans);
+    }
+
     void movingWorker()
     {
         if (workTime > 1)
@@ -66,8 +70,8 @@ public class WorkerController : MonoBehaviour
             }
 
             seq = DOTween.Sequence();
-            LookAtWorker(way2);
-            seq.Append(transform.DOMove(way2.transform.position, moveTime)).OnComplete(() => LookAtWorker(way3))
+            
+            seq.Append(transform.DOMove(way2.transform.position, moveTime)).OnComplete(() => LookAtWorker(way3)).OnStart(() => LookAtWorker(way1))
             // TODO: OnComplete i�inde func de�i�tirilecek. Uygun tracking noktalar� eklendi�inde.
                 .Append(transform.DOMove(way3.transform.position, moveTime)).OnComplete(() => LookAtWorker(way4))
                 .Append(transform.DOMove(way4.position, moveTime).OnComplete(SleepWorker));
@@ -88,8 +92,8 @@ public class WorkerController : MonoBehaviour
         {
             seq = DOTween.Sequence();
 
-            LookAtWorker(way3);
-            seq.Append(transform.DOMove(way3.transform.position, moveTime)).OnComplete(() => LookAtWorker(way2))
+            
+            seq.Append(transform.DOMove(way3.transform.position, moveTime)).OnComplete(() => LookAtWorker(way2)).OnStart(() => LookAtWorker(way4))
             // TODO: OnComplete i�inde func de�i�tirilecek. Uygun tracking noktalar� eklendi�inde.
                 .Append(transform.DOMove(way2.transform.position, moveTime)).OnComplete(() => LookAtWorker(way1))
                 .Append(transform.DOMove(way1.position, moveTime).OnComplete(movingWorker));
@@ -110,7 +114,7 @@ public class WorkerController : MonoBehaviour
     }
 
     void LookAtWorker(Transform look){
-        transform.LookAt(look , Vector3.zero);
+        lookTrans = look;
     }
 
     // void WorkerAnimationControl()
