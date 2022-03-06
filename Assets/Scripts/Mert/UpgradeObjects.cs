@@ -30,5 +30,4 @@ public class UpgradeObjects : MonoBehaviour
             upgradeEffect.Play();
         }
     }
-
 }

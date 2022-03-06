@@ -3277,7 +3277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3580491520671361749, guid: 85cd27bd2e096f84d82689a853ea9955, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5709506782086439948, guid: 85cd27bd2e096f84d82689a853ea9955, type: 3}
       propertyPath: m_IsActive
@@ -4946,6 +4946,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5521919839985972667, guid: c05fb4623bb2aee478fed567cc01d85b, type: 3}
   m_PrefabInstance: {fileID: 1191410283}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1768686197 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5181985631927791361, guid: c05fb4623bb2aee478fed567cc01d85b, type: 3}
+  m_PrefabInstance: {fileID: 294797152}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1769852195
 GameObject:
   m_ObjectHideFlags: 0
@@ -6114,6 +6119,7 @@ MonoBehaviour:
   - {fileID: 560378926}
   - {fileID: 202222034}
   - {fileID: 1278038452}
+  - {fileID: 1768686197}
   BoxesListMainPosition: []
   ProductList:
   - {fileID: 1505180344}

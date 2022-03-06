@@ -49,15 +49,12 @@ public class PlayerController : MonoBehaviour
         if (direction != Vector3.zero)
         {
             transform.localRotation = Quaternion.LookRotation(-direction * playerSpeed * Time.fixedDeltaTime);
-
         }
         else
         {
             rb.velocity = Vector3.zero;
         }
-
         PlayerAnimationControl();
-
     }
 
     void PlayerAnimationControl()
@@ -89,5 +86,5 @@ public class PlayerController : MonoBehaviour
             run = true;
         }
 
-        }
     }
+}

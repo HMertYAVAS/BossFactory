@@ -35,6 +35,20 @@ public class BoxesController : MonoBehaviour
         {
             gameObject.tag = "Player";
         }
+        else
+        {
+            for (int i = 0; i < BoxesList.Count; i++)
+            {
+                if (BoxesList[i].transform.gameObject.activeInHierarchy)
+                {
+                    gameObject.tag = "HaveBox";
+                }
+                else if (ProductList[i].transform.gameObject.activeInHierarchy)
+                {
+                    gameObject.tag = "HaveProduct";
+                }
+            }
+        }
     }
     public Vector3 GetBoxesLinePosition()
     {

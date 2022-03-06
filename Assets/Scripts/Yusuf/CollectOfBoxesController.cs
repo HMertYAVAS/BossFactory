@@ -50,7 +50,7 @@ public class CollectOfBoxesController : MonoBehaviour
         BoxesController = triggerObject.GetComponent<BoxesController>();
         if (triggerObject.CompareTag("Player") && canCollect || triggerObject.CompareTag("Worker") && canCollect || triggerObject.CompareTag("HaveBox") && canCollect)
         {
-            triggerObject.gameObject.tag = "HaveBox";
+            other.gameObject.tag = "HaveBox";
             collectObjectListLine--;
             collectOfBoxesList[collectObjectListLine].transform.DOMove(BoxesController.GetBoxesLinePosition(), 0.15f).OnComplete(() => CollectObject());
         }
