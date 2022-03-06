@@ -13,10 +13,10 @@ public class UpgradeObjects : MonoBehaviour
     public Text buyObjectText;
     bool buyItemBool = true;
 
-    void Start()
-    {
-        buyObjectText.text = value.ToString();
-    }
+    // private void Awake()
+    // {
+    //     buyObjectText.text = value.ToString();
+    // }
 
     void OnTriggerStay(Collider other)
     {
