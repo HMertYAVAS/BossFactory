@@ -13,7 +13,7 @@ public class UpgradeObjects : MonoBehaviour
     public Text buyObjectText;
     bool buyItemBool = true;
 
-    void Start()
+    void Awake()
     {
         buyObjectText.text = value.ToString();
     }
@@ -31,7 +31,7 @@ public class UpgradeObjects : MonoBehaviour
     {
         if (value <= MoneyController.instance.money)
         {
-            MoneyController.instance.BuyItem(value);
+            MoneyController.instance.BuyItem();
             StartCoroutine(UIChanged());
 
             if (value == 1)
