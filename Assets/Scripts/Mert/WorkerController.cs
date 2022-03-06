@@ -54,15 +54,15 @@ public class WorkerController : MonoBehaviour
         {
             seq = DOTween.Sequence();
 
-            seq.Append(transform.DOMove(way2.transform.position, moveTime))
-            // TODO: OnComplete iï¿½inde func deï¿½iï¿½tirilecek. Uygun tracking noktalarï¿½ eklendiï¿½inde.
-                .Append(transform.DOMove(way3.transform.position, moveTime))
-                .Append(transform.DOMove(way4.position, moveTime).OnComplete(SleepWorker));
+            seq.Append(transform.DOMove(way2.transform.position, moveTime).SetEase(Ease.OutCubic))
+            // TODO: OnComplete içinde func deðiþtirilecek. Uygun tracking noktalarý eklendiðinde.
+                .Append(transform.DOMove(way3.transform.position, moveTime).SetEase(Ease.OutCubic))
+                .Append(transform.DOMove(way4.position, moveTime).SetEase(Ease.OutCubic).OnComplete(SleepWorker));
             workTime--;
         }
         else
         {
-            // TODO Burasï¿½ uyku noktasï¿½
+            // TODO Burasý uyku noktasý
             //this.gameObject.SetActive(false);
             StartCoroutine(SleepWorkerNum());
 
@@ -75,10 +75,10 @@ public class WorkerController : MonoBehaviour
         {
             seq = DOTween.Sequence();
 
-            seq.Append(transform.DOMove(way3.transform.position, moveTime))
-            // TODO: OnComplete iï¿½inde func deï¿½iï¿½tirilecek. Uygun tracking noktalarï¿½ eklendiï¿½inde.
-                .Append(transform.DOMove(way2.transform.position, moveTime))
-                .Append(transform.DOMove(way1.position, moveTime).OnComplete(movingWorker));
+            seq.Append(transform.DOMove(way3.transform.position, moveTime).SetEase(Ease.OutCubic))
+            // TODO: OnComplete içinde func deðiþtirilecek. Uygun tracking noktalarý eklendiðinde.
+                .Append(transform.DOMove(way2.transform.position, moveTime).SetEase(Ease.OutCubic))
+                .Append(transform.DOMove(way1.position, moveTime).SetEase(Ease.OutCubic).OnComplete(movingWorker));
             workTime--;
         }
     }

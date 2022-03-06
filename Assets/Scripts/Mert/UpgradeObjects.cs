@@ -30,4 +30,8 @@ public class UpgradeObjects : MonoBehaviour
             upgradeEffect.Play();
         }
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> parent of 16b1b80 (Money)
 }
