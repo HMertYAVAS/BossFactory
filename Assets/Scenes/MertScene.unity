@@ -3451,11 +3451,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c05fb4623bb2aee478fed567cc01d85b, type: 3}
+<<<<<<< Updated upstream
 --- !u!198 &1131455884 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 5810439869966135311, guid: 85cd27bd2e096f84d82689a853ea9955, type: 3}
   m_PrefabInstance: {fileID: 1085173275}
   m_PrefabAsset: {fileID: 0}
+=======
+--- !u!114 &1160996565 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8202350095142773218, guid: 85cd27bd2e096f84d82689a853ea9955, type: 3}
+  m_PrefabInstance: {fileID: 1085173275}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+>>>>>>> Stashed changes
 --- !u!1001 &1162132510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4665,11 +4679,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb9e3af7421d8041a906946b140896e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   value: 1500
   upgradeObj: {fileID: 37224226}
   upgradedObj: {fileID: 1109074273}
   upgradeEffect: {fileID: 1502610437}
 --- !u!65 &1560641915
+=======
+  value: 50
+  upgradeObj: {fileID: 1470069818}
+  upgradedObj: {fileID: 1470069818}
+  upgradeEffect: {fileID: 1706422200}
+  buyObjectText: {fileID: 1160996565}
+--- !u!65 &1542173067
+>>>>>>> Stashed changes
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4998,7 +5021,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 1
   m_Constraints: 80
-  m_CollisionDetection: 2
+  m_CollisionDetection: 1
 --- !u!136 &1769852198
 CapsuleCollider:
   m_ObjectHideFlags: 0
