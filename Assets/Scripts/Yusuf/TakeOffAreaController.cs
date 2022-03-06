@@ -13,14 +13,16 @@ public class TakeOffAreaController : MonoBehaviour
     BoxesController boxesController;
 
     public bool startTimer;
+
+    SoundManager soundManager;
     private void Start()
     {
+        soundManager = GameObject.FindObjectOfType<SoundManager>();
         takeOffAreaBoxesLine = -1;
         for (int i = 0; i < takeOffAreaBoxesList.Count; i++)
         {
             takeOffAreaBoxesListMainPosition.Add(takeOffAreaBoxesList[i].transform.localPosition);
         }
-
     }
     public bool canWork;
 
@@ -76,7 +78,7 @@ public class TakeOffAreaController : MonoBehaviour
 
     void SetActiveObject()
     {
-
+        soundManager.PlayBoxesCollectSound();
         takeOffAreaBoxesList[takeOffAreaBoxesLine].gameObject.SetActive(true);
         takeOffAreaBoxesLine++;
         boxesController.BoxesList[boxesController.BoxesListLine].transform.gameObject.SetActive(false);

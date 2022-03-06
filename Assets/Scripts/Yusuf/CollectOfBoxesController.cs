@@ -8,7 +8,7 @@ public class CollectOfBoxesController : MonoBehaviour
     public int collectObjectListLine;
     public List<Vector3> collectOfBoxesListMainPosition;
 
-
+    SoundManager soundManager;
     public bool canCollect
     {
         get
@@ -29,6 +29,7 @@ public class CollectOfBoxesController : MonoBehaviour
 
     void Start()
     {
+        soundManager = GameObject.FindObjectOfType<SoundManager>();
         collectObjectListLine = 0;
         for (int i = 0; i < collectOfBoxesList.Count; i++)
         {
@@ -59,6 +60,7 @@ public class CollectOfBoxesController : MonoBehaviour
     {
         if (collectObjectListLine > -1)
         {
+            soundManager.PlayBoxesCollectSound();
             collectOfBoxesList[collectObjectListLine].transform.gameObject.SetActive(false);
             collectOfBoxesList[collectObjectListLine].transform.position = collectOfBoxesListMainPosition[collectObjectListLine];
             BoxesController.SetActiveBoxesObject();

@@ -8,6 +8,7 @@ public class EndCollectAreaController : MonoBehaviour
     public int collectObjectListLine;
     public List<Vector3> collectOfBoxesListMainPosition;
 
+    SoundManager SoundManager;
     public bool canWorktoBand
     {
         get
@@ -35,6 +36,7 @@ public class EndCollectAreaController : MonoBehaviour
 
     void Start()
     {
+        SoundManager = GameObject.FindObjectOfType<SoundManager>();
         collectObjectListLine = 0;
         for (int i = 0; i < collectOfBoxesList.Count; i++)
         {
@@ -65,6 +67,7 @@ public class EndCollectAreaController : MonoBehaviour
     {
         if (collectObjectListLine > -1)
         {
+            SoundManager.PlayBoxesCollectSound();
             collectOfBoxesList[collectObjectListLine].transform.gameObject.SetActive(false);
             collectOfBoxesList[collectObjectListLine].transform.position = collectOfBoxesListMainPosition[collectObjectListLine];
             BoxesController.SetActiveProductObject();

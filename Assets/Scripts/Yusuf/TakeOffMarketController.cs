@@ -13,8 +13,11 @@ public class TakeOffMarketController : MonoBehaviour
     BoxesController boxesController;
 
     public bool startTimer;
+
+    SoundManager soundManager;
     private void Start()
     {
+        soundManager = GameObject.FindObjectOfType<SoundManager>();
         takeOffAreaBoxesLine = -1;
         for (int i = 0; i < takeOffAreaBoxesList.Count; i++)
         {
@@ -66,6 +69,7 @@ public class TakeOffMarketController : MonoBehaviour
 
     void SetActiveObject()
     {
+        soundManager.PlayerCashSound();
         takeOffAreaBoxesList[takeOffAreaBoxesLine].gameObject.SetActive(true);
         takeOffAreaBoxesLine++;
         boxesController.ProductList[boxesController.BoxesListLine].transform.gameObject.SetActive(false);
