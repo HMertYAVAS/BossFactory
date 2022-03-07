@@ -30,9 +30,9 @@ public class WorkerController : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         boxesController = GetComponent<BoxesController>();
-        DOTween.Init();
+        //DOTween.Init();
         workTimeTemp = workTime;
-        movingWorker();
+        //   movingWorker();
     }
 
     //public void BuyToWorkerCoroutine()
@@ -52,30 +52,35 @@ public class WorkerController : MonoBehaviour
     //    }
     //}
 
-    private void Update() {
-        transform.LookAt(lookTrans);
+    private void Update()
+    {
+        if (boxesController.BoxesListLine > 0)
+        {
+            animator.SetTrigger("TransportationTrigger");
+        }
+        else
+        {
+            animator.SetTrigger("runningTrigger");
+        }
+
+        //if (gameObject.GetComponent<Rigidbody>().)
+        //{
+        //    animator.SetTrigger("runningTrigger");
+        //}
+        //transform.LookAt(lookTrans);
     }
 
     void movingWorker()
     {
         if (workTime > 1)
         {
-            if (boxesController.BoxesListLine > 0)
-            {
-                animator.SetTrigger("TransportationTrigger");
-            }
-            else
-            {
-                animator.SetTrigger("runningTrigger");
-            }
+            //seq = DOTween.Sequence();
 
-            seq = DOTween.Sequence();
-            
-            seq.Append(transform.DOMove(way2.transform.position, moveTime)).OnComplete(() => LookAtWorker(way3)).OnStart(() => LookAtWorker(way1))
-            // TODO: OnComplete i�inde func de�i�tirilecek. Uygun tracking noktalar� eklendi�inde.
-                .Append(transform.DOMove(way3.transform.position, moveTime)).OnComplete(() => LookAtWorker(way4))
-                .Append(transform.DOMove(way4.position, moveTime).OnComplete(SleepWorker));
-            workTime--;
+            //seq.Append(transform.DOMove(way2.transform.position, moveTime)).OnComplete(() => LookAtWorker(way3)).OnStart(() => LookAtWorker(way1))
+            //// TODO: OnComplete i�inde func de�i�tirilecek. Uygun tracking noktalar� eklendi�inde.
+            //    .Append(transform.DOMove(way3.transform.position, moveTime)).OnComplete(() => LookAtWorker(way4))
+            //    .Append(transform.DOMove(way4.position, moveTime).OnComplete(SleepWorker));
+            //workTime--;
         }
         else
         {
@@ -92,7 +97,7 @@ public class WorkerController : MonoBehaviour
         {
             seq = DOTween.Sequence();
 
-            
+
             seq.Append(transform.DOMove(way3.transform.position, moveTime)).OnComplete(() => LookAtWorker(way2)).OnStart(() => LookAtWorker(way4))
             // TODO: OnComplete i�inde func de�i�tirilecek. Uygun tracking noktalar� eklendi�inde.
                 .Append(transform.DOMove(way2.transform.position, moveTime)).OnComplete(() => LookAtWorker(way1))
@@ -113,36 +118,37 @@ public class WorkerController : MonoBehaviour
         RestartWorker();
     }
 
-    void LookAtWorker(Transform look){
+    void LookAtWorker(Transform look)
+    {
         lookTrans = look;
     }
 
-    // void WorkerAnimationControl()
-    // {
+    //void WorkerAnimationControl()
+    //{
 
-    //     if ((dynamicJoystick.Horizontal + dynamicJoystick.Vertical) != 0 && run)
-    //     {
-    //         if (boxesController.BoxesListLine > 0 && run)
-    //         {
-    //             animator.SetTrigger("TransportationTrigger");
-    //         }
-    //         else
-    //         {
-    //             animator.SetTrigger("runningTrigger");
-    //         }
-    //         run = false;
-    //     }
-    //     else if (dynamicJoystick.Horizontal + dynamicJoystick.Vertical == 0 && !run)
-    //     {
-    //         if (boxesController.BoxesListLine > 0)
-    //         {
-    //             animator.SetTrigger("transportationDontwalkTrigger");
-    //         }
-    //         else
-    //         {
-    //             animator.SetTrigger("idleTrigger");
-    //         }
-    //         run = true;
-    //     }
-    // }
+    //    if ((dynamicJoystick.Horizontal + dynamicJoystick.Vertical) != 0 && run)
+    //    {
+    //        if (boxesController.BoxesListLine > 0 && run)
+    //        {
+    //            animator.SetTrigger("TransportationTrigger");
+    //        }
+    //        else
+    //        {
+    ////            animator.SetTrigger("runningTrigger");
+    //        }
+    //        run = false;
+    //    }
+    //    else if (dynamicJoystick.Horizontal + dynamicJoystick.Vertical == 0 && !run)
+    //    {
+    //        if (boxesController.BoxesListLine > 0)
+    //        {
+    //            animator.SetTrigger("transportationDontwalkTrigger");
+    //        }
+    //        else
+    //        {
+    //            animator.SetTrigger("idleTrigger");
+    //        }
+    //        run = true;
+    //    }
+    //}
 }
