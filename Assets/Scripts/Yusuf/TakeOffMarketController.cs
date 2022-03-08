@@ -14,6 +14,8 @@ public class TakeOffMarketController : MonoBehaviour
 
     public bool startTimer;
 
+    public ParticleSystem moneyParticle;
+
     SoundManager soundManager;
     private void Start()
     {
@@ -69,7 +71,8 @@ public class TakeOffMarketController : MonoBehaviour
     void SetActiveObject()
     {
         soundManager.PlayerCashSound();
-        takeOffAreaBoxesList[takeOffAreaBoxesLine].gameObject.SetActive(true);
+        //takeOffAreaBoxesList[takeOffAreaBoxesLine].gameObject.SetActive(true);
+        moneyParticle.gameObject.SetActive(true);
         takeOffAreaBoxesLine++;
         boxesController.ProductList[boxesController.BoxesListLine].transform.gameObject.SetActive(false);
         MoneyController.instance.SellItem(10);
