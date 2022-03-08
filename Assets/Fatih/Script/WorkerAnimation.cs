@@ -2,20 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BossAnimation : MonoBehaviour
+public class WorkerAnimation : MonoBehaviour
 {
-    public static BossAnimation bossAnimation;
+    //public static BossAnimation bossAnimation;
     Animator animator;
     public enum AnimationType  { transportationDontwalkTrigger, TransportationTrigger, runningTrigger, idleTrigger };
-   
+    string AnimationFormerChech="";
+
+
     private void Start()
     {
         animator = gameObject.GetComponent<Animator>();
-       
+        StartCoroutine("RoutineAnimationChech");
     }
     
 
-    private void OnEnable()
+   /* private void OnEnable()
     {
         if (bossAnimation == null)
         {
@@ -29,6 +31,28 @@ public class BossAnimation : MonoBehaviour
             }
         }
         DontDestroyOnLoad(this.gameObject);
+    }*/
+
+
+    IEnumerator RoutineAnimationChech()
+    {
+        yield return new WaitForSeconds(2);
+        AniamtionChech();
+        StartCoroutine("RoutineAnimationChech");
+    }
+
+    void  AniamtionChech()
+    {
+        if (this.tag== "HaveBox" && AnimationFormerChech!= "HaveBox")
+        {
+            AnimationFormerChech = "HaveBox";
+            AnimationTrigger(AnimationType.TransportationTrigger);
+        }
+        else if (this.tag == "Player" && AnimationFormerChech != "Player")
+        {
+            AnimationFormerChech = "Player";
+            AnimationTrigger(AnimationType.runningTrigger);
+        }
     }
 
     public void AnimationTrigger(AnimationType animationType)

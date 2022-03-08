@@ -51,8 +51,7 @@ public class WorkerController : MonoBehaviour
 
     //    }
     //}
-
-    private void Update()
+    public void  AnimationTrigger()
     {
         if (boxesController.BoxesListLine > 0)
         {
@@ -62,6 +61,10 @@ public class WorkerController : MonoBehaviour
         {
             animator.SetTrigger("runningTrigger");
         }
+    }
+    private void Update()
+    {
+      
 
         //if (gameObject.GetComponent<Rigidbody>().)
         //{

@@ -6,18 +6,18 @@ using UnityEngine.UI;
 
 public class UpgradeObjects : MonoBehaviour
 {
-    public int value;
+    public int Price;
     public GameObject upgradeObj;
     public GameObject upgradedObj;
     public ParticleSystem upgradeEffect;
 
     public Text buyObjectText;
     private SoundManager _soundManager;
-    bool buyItemBool = true;
+    [SerializeField]bool buyItemBool = true;
 
     void Awake()
     {
-        buyObjectText.text = value.ToString();
+        buyObjectText.text = Price.ToString();
     }
 
     private void Start()
@@ -27,42 +27,61 @@ public class UpgradeObjects : MonoBehaviour
     }
 
 
-    void OnTriggerStay(Collider other)
+    void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        buyItemBool = true;
         if (buyItemBool && other.CompareTag("Player"))
         {
             UpgradeControl();
+                _soundManager.PlayerCashSound();
+           
         }
     }
-
-
+    private void OnTriggerExit(Collider other)
+    {
+        
+        if ( other.gameObject.tag=="Player")
+        {
+            buyItemBool = false;
+            Debug.Log("Trigger");
+        }
+    }
     public void UpgradeControl()
     {
-        if (value <= MoneyController.instance.money)
+        if (Price <= MoneyController.instance.money)
         {
             MoneyController.instance.BuyItem();
             StartCoroutine(UIChanged());
 
-            if (value == 1)
+            if (Price == 0)
             {
             upgradeObj.SetActive(false);
             upgradedObj.SetActive(true);
-            gameObject.GetComponent<Collider>().enabled = false;
-            upgradeEffect.Play();
+            //gameObject.GetComponent<Collider>().enabled = false;
+            //upgradeEffect.Play();
             }
-            buyItemBool = false;
+           // buyItemBool = false;
         }
     }
 
         IEnumerator UIChanged()
     {
-            MoneyController.instance.BuyItem();
+        if (buyItemBool == false)
+        {
+            yield break;
+        }
+        MoneyController.instance.BuyItem();
             yield return new WaitForSeconds(0.01f);
-            _soundManager.PlayerCashSound();
-            value--;
-            buyObjectText.text = value.ToString();
-            buyItemBool=true;
+        if (Price==0)
+        {
+            UpgradeControl();
+            yield break;
+        }
+       
+            Price--;
+            buyObjectText.text = Price.ToString();
+           // buyItemBool=true;
+         StartCoroutine(UIChanged());
     }
 
 }

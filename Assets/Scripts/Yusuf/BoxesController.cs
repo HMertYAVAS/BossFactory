@@ -43,10 +43,10 @@ public class BoxesController : MonoBehaviour
                 {
                     gameObject.tag = "HaveBox";
                 }
-                else if (ProductList[i].transform.gameObject.activeInHierarchy)
+                /*else if (ProductList[i].transform.gameObject.activeInHierarchy)
                 {
                     gameObject.tag = "HaveProduct";
-                }
+                }*/
             }
         }
     }
