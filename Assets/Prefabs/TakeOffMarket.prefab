@@ -259,6 +259,7 @@ MonoBehaviour:
   - {fileID: 2324446668094743111}
   takeOffAreaBoxesListMainPosition: []
   startTimer: 0
+  moneyParticle: {fileID: 0}
 --- !u!1001 &1430989735853059
 PrefabInstance:
   m_ObjectHideFlags: 0
