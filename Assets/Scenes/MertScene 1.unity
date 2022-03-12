@@ -2100,11 +2100,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb9e3af7421d8041a906946b140896e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 2500
+  Price: 0
   upgradeObj: {fileID: 1339542113}
   upgradedObj: {fileID: 1298998852}
   upgradeEffect: {fileID: 300938857}
   buyObjectText: {fileID: 750850880}
+  buyItemBool: 1
 --- !u!1001 &659842001
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3480,7 +3481,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1153234480}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.8, y: 0, z: 20.3}
+  m_LocalPosition: {x: 2, y: 1.9600937, z: 38.12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -3501,25 +3502,25 @@ MonoBehaviour:
   editorData:
     _bezierPath:
       points:
-      - {x: -1.5489826, y: 0, z: -0.054512024}
-      - {x: -1.467865, y: -0.0072711706, z: -0.122844696}
-      - {x: -0.7642931, y: -0.2896089, z: 29.1638}
-      - {x: 0.5722809, y: -0.10119462, z: 29.387054}
-      - {x: 0.8372434, y: -0.06384336, z: 29.431313}
-      - {x: 35.262375, y: 0.15147027, z: 28.289703}
-      - {x: 35.28125, y: 0.14355135, z: 28.243862}
-      - {x: 35.291557, y: 0.1392274, z: 28.218832}
-      - {x: 51.576874, y: 0.7508817, z: 40.801807}
-      - {x: 54.35675, y: 0.77295625, z: 42.931538}
-      - {x: 54.56048, y: 0.77457404, z: 43.08762}
-      - {x: 57.111115, y: 0.52621144, z: 45.536213}
-      - {x: 57.264347, y: 0.5359198, z: 45.619267}
-      - {x: 57.51886, y: 0.55204487, z: 45.757214}
-      - {x: 56.003384, y: 0.059715807, z: 42.76896}
-      - {x: 55.507893, y: -0.049824595, z: 42.128284}
-      - {x: 55.45118, y: -0.062362254, z: 42.054955}
-      - {x: 21.28017, y: 0.0033384264, z: 13.486774}
-      - {x: 21.284191, y: 0, z: 13.491341}
+      - {x: -30.40562, y: -1.5685697, z: -22.395634}
+      - {x: -32.34778, y: -1.6291966, z: -10.928738}
+      - {x: -33.305264, y: -2.081348, z: 0.09465313}
+      - {x: -27.299694, y: -2.0612884, z: 6.6024284}
+      - {x: -20.155321, y: -2.037425, z: 14.344236}
+      - {x: -2.3455868, y: -1.986163, z: 7.9500594}
+      - {x: 7.409275, y: -1.8165424, z: 11.923992}
+      - {x: 14.5902, y: -1.6916782, z: 14.849356}
+      - {x: 22.580902, y: -2.92013, z: 30.213655}
+      - {x: 29.56234, y: -1.9713659, z: 26.973522}
+      - {x: 31.9514, y: -1.646697, z: 25.864742}
+      - {x: 21.160967, y: -1.9277916, z: 16.80874}
+      - {x: 22.23434, y: -2.1946087, z: 15.775841}
+      - {x: 23.674847, y: -2.5526867, z: 14.389652}
+      - {x: 9.282059, y: -1.8133962, z: 2.2581825}
+      - {x: -0.14868712, y: -2.03747, z: -5.263237}
+      - {x: -9.132722, y: -2.25093, z: -12.428385}
+      - {x: -18.443375, y: -1.7395141, z: -15.442476}
+      - {x: -29.621746, y: -1.8516344, z: -22.787085}
       isClosed: 0
       space: 0
       controlMode: 0
@@ -3530,15 +3531,15 @@ MonoBehaviour:
         m_Extent: {x: 0, y: 0, z: 0}
       perAnchorNormalsAngle:
       - 0
-      - 5.2312317
-      - 17.614727
-      - 17.786316
+      - 354.12207
+      - 2.3964844
+      - 0.045166016
       - 17.798891
-      - -9.747156
-      - 347.1
+      - 25.66092
+      - 20.519981
       globalNormalsAngle: 90
       flipNormals: 0
-    vertexPathUpToDate: 1
+    vertexPathUpToDate: 0
     vertexPathMaxAngleError: 0.3
     vertexPathMinVertexSpacing: 0.01
     showTransformTool: 1
@@ -3547,13 +3548,13 @@ MonoBehaviour:
     displayAnchorPoints: 1
     displayControlPoints: 1
     bezierHandleScale: 0.37
-    globalDisplaySettingsFoldout: 0
+    globalDisplaySettingsFoldout: 1
     keepConstantHandleSize: 1
     showNormalsInVertexMode: 0
     showBezierPathInVertexMode: 0
     showDisplayOptions: 1
     showPathOptions: 1
-    showVertexPathDisplayOptions: 0
+    showVertexPathDisplayOptions: 1
     showVertexPathOptions: 1
     showNormals: 1
     showNormalsHelpInfo: 0
@@ -4768,11 +4769,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fb9e3af7421d8041a906946b140896e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  value: 1500
+  Price: 0
   upgradeObj: {fileID: 37224226}
   upgradedObj: {fileID: 1109074273}
   upgradeEffect: {fileID: 1502610437}
   buyObjectText: {fileID: 367763005}
+  buyItemBool: 1
 --- !u!65 &1560641915
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5035,6 +5037,26 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &1719429402 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6243779757259388433, guid: 4883a6f7a90a05449bac66929736face, type: 3}
+  m_PrefabInstance: {fileID: 507479943}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1719429403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719429402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33aabe1a2dec93349b06e6e5dc51bc06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathCreator: {fileID: 1153234482}
+  endOfPathInstruction: 0
+  speed: 10
 --- !u!1 &1721599492 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6396020216184079699, guid: 79a3fe3ec8985f94fbaa9a2625c63339, type: 3}
@@ -5219,7 +5241,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1832819893}
-  - component: {fileID: 1832819894}
   m_Layer: 0
   m_Name: Workers
   m_TagString: Untagged
@@ -5242,21 +5263,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1832819894
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1832819892}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33aabe1a2dec93349b06e6e5dc51bc06, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pathCreator: {fileID: 1153234482}
-  endOfPathInstruction: 0
-  speed: 5
 --- !u!1 &1859685704
 GameObject:
   m_ObjectHideFlags: 0
