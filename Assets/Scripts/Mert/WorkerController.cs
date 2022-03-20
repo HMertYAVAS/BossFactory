@@ -57,7 +57,7 @@ public class WorkerController : MonoBehaviour
         if (way1.position.x == transform.position.x && way1.position.z == transform.position.z)
         {
             worker.SetDestination(way2.position);
-        }else if (way1.position.x == transform.position.x && way1.position.z == transform.position.z)
+        }else if (way2.position.x == transform.position.x && way2.position.z == transform.position.z)
         {
             worker.SetDestination(way1.position);
         }
