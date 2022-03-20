@@ -40,7 +40,7 @@ public class UpgradeObjects : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         
-        if ( other.gameObject.tag=="Player")
+        if ( other.CompareTag("Player"))
         {
             buyItemBool = false;
             Debug.Log("Trigger");
